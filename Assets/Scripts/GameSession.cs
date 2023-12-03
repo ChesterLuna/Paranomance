@@ -26,6 +26,16 @@ public class GameSession : MonoBehaviour
         Victorian_Attraction = 0;
         Samurai_Attraction = 0;
 
+        Global_Choices["P_Garage"] = false;
+        Global_Choices["P_Common_Room"] = false;
+        Global_Choices["P_Pool"] = false;
+        Global_Choices["S_Garden"] = false;
+        Global_Choices["S_Kitchen"] = false;
+        Global_Choices["S_Roof"] = false;
+        Global_Choices["V_Study"] = false;
+        Global_Choices["V_Storage_Room"] = false;
+        Global_Choices["V_Bathroom"] = false;
+
     }
 
     private void SetUpSingleton()
