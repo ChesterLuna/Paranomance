@@ -1,0 +1,94 @@
+@0 Nothing
+#Narrator 
+:<i>Y/N goes to the kitchen for a snack. They see the garage door left open as they grab the fridge handle.
+#Narrator
+:They find the garage lights on and hear the hum of the car engine.
+#Y/N
+:What in the world...
+#Narrator
+:Y/N pushes the door open, and their mouth falls agape. Alomar, on top of the hood of Y/N’s car. He turns to Y/N, looking enthused.
+#Y/N
+:What do you think you’re doing?
+@1 Happy
+#Alomar
+:This must be your ship for land! How interesting!
+#Narrator
+:His heavy footsteps fall Alomar onto the car.
+
+
+[CHOICE
+(baffled) First of all, get down from there! (-1)
+(amused) It’s a car. (+1)
+
+1@2 Sad
+1#Narrator 
+1:Alomar frowns and dismounts the vehicle sadly.
+1#Y/N
+1:And it’s a car.
+
+2#Narrator
+2:Alomar stomps back down the cement floors, pragmatically.
+]
+
+#Alomar
+:Car! What a wonderful name for your ship! Though, it’s a little small for my taste... Where do sails protrude? How does it work?
+#Y/N
+:It doesn’t need sails--
+#Alomar
+:What a time you live in! To travel on boat on land.
+
+#Narrator
+:He throws his hands up, and his eyes wander around the garage.
+#Y/N
+:Houses come in all different sizes too. You must have not been on land too often when you were alive, huh?
+#Alomar
+:I can count the number of times I’ve ever been on land, usually just to gather food for the rest of the crew. 
+#Alomar
+:They always told me to stay back whenever they had earthly affairs.
+#Y/N
+:But you were a pirate, right? You must gone on a lot of adventures to make up for it.
+#Alomar
+:Right again, Y/N.
+#Narrator
+:He winks at them.
+#Alomar
+:Your status as a historian doesn’t fail you.
+#Alomar
+:Yes, I did go on many adventures, traversing the seas, meeting people hailing from elsewhere, fighting all types of battles, eating like champions as a celebration.
+#Narrator
+:Alomar looks a little dejected.
+#Alomar
+:Is it selfish of me to yearn for so much more than just jubilance?
+
+[CHOICE
+Of course not. (+1)
+Not many could have lived the life you did. (-1)
+
+]
+
+#Alomar
+:Living my entire life with the crew is something I do not regret one bit. Nor is dying for the sake of them.
+#Y/N
+:Dying for the sake of them? What does that mean?
+#Alomar
+:But, Y/N, a simple life would be nice, you know? Though the seas have much to discover, I am far more fascinated by land. 
+#Alomar
+:Y/N, what do you think?
+[CHOICE
+Maybe sometime, I can take you for a drive! On my ship! We can take a tour around the city, if you’d like. (+1)
+Entertain yourself as much as you want within the premises. Staying in this house is the best way to figure out how to get you to pass. (-1)
+
+
+1#Narrator
+1:Alomar brightens.
+1#Alomar
+1:That sounds wonderful, Y/N! I’ll take that as a promise.
+1#Narrator
+1:Alomar gently takes Y/N’s hand and fiddles with their finger. Their pinky finger is left unfolded. He wraps his own finger around theirs.
+1#Alomar
+1:Don’t leave me waiting too long, okay?
+2#Narrator
+2:Alomar sighs. 
+2#Alomar
+2:Another order, I see. I’m no foreigner to it. As you wish, Y/N.
+]
