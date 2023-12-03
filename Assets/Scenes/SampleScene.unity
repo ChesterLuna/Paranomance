@@ -854,6 +854,8 @@ MonoBehaviour:
   - {fileID: 21300000, guid: d6753ff539b363d4b84f89fb1dc442c3, type: 3}
   - {fileID: 21300000, guid: ddc08a447a4175942b69ad2c7f22fdf3, type: 3}
   portraitStand: {fileID: 1978103888}
+  dialogueBox: {fileID: 0}
+  dialogueShown: 0
 --- !u!4 &1032720834
 Transform:
   m_ObjectHideFlags: 0
