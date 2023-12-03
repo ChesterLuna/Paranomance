@@ -1,0 +1,90 @@
+#
+:<i>As Y/N heads to their room, they pass by the common room. They see a light peaking out from under the door frame. 
+#
+:<i>Y/N pushes the door open and hears the crackling sound of the fireplace. Alomar sits in front of it. She looms over his shoulder. 
+#Y/N
+:(curious) What are you doing?
+#Alomar
+:Y/N. 
+#Y/N
+:It’s late, Alomar. What are you doing still awake? 
+Y/N looks down to the floor in front of Alomor. A board of chess lies flat, with its pieces in disordered places. 
+#Alomar
+:Can’t sleep. Trying to figure out this modern game of yours. I hope you don’t mind. 
+#
+:<i>Alomar stares up at Y/N.
+#Alomar
+:If you have the time, would you like to play a game?
+Y/N:
+
+[DECISION 1
+
+    Choice 1: I suppose I have a few minutes to spare. (-1)
+   	Choice 2: I’d love to keep you company, Alomar. (+1)
+
+1#Alomar
+1:Thank you for your time.
+
+2#Alomar
+2:Really?!
+]
+
+#
+:<i>Y/N takes a seat beside him. She extends her hands to feel the warmth of the fire. 
+#Y/N
+:There’s a manual somewhere…
+#Alomar
+:How about you teach me? 
+#
+:<i>Before Alomar can finish his sentence, Y/N is already setting up the board. 
+#
+:<i>She explains the basic rules of chess, the function of each piece and the objective of the game. Alomar leans in, with a hand to his chin, listening intently to Y/N.
+#Alomar
+:So all these pieces, all serve one purpose, can only move in specific ways. And to win, you must take… that king piece. 
+#Y/N
+:That’s the game.
+#Alomar
+:Interesting. Modern folk are entertained by the most mundane things. 
+#
+:<i>Y/N frowns. 
+
+[DECISION 2
+
+Choice 1: Shall I go to bed then? (-1)
+Choice 2: Did I bore you, Alomar? (+1)
+
+1#Alomar
+1:Y/N, I didn’t mean it in that way!
+
+2#Alomar
+2:Of course not! How could you even think that?!
+]
+
+#Alomar
+:On the ship, we played games such as who can clean the desk the fastest or who can spit the furthest. I meant no offence, Y/N.
+#
+:<i>Y/N nods, glad she interpreted his intentions the wrong way. 
+#Y/N
+:Why call it mundane?
+#Alomar
+:(clueless) There’s nothing wrong with mundanity. For example, you live in a large house, study history for a career and eat when you wish. I, on the other hand, never had the time to slow down. Following orders, cleaning decks, polishing wood, and finding ways to escape starvation. Simple games like these are nice, Y/N. I’ve always sought something grounding. 
+Alomar stares into Y/N’s face and sends her a gentle smile. He returns to his competitive demeanour. 
+#Alomar
+:Shall we play, Y/N? 
+
+[DECISION 3
+
+Choice 1: Don’t worry, I’ll go easy on you. (-1)
+Choice 2: Cheeky, are we? Challenge accepted, pirate! (+1)
+
+1#Alomar
+1:Don’t look down on me; there is no need. I like a challenge.
+
+2#
+:Alomar smiles wide and makes the first move.
+2#Alomar
+2:(playful) Watch your tongue, historian!
+]
+
+
+

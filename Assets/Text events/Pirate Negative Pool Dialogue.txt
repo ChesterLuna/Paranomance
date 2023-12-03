@@ -1,0 +1,107 @@
+
+#
+:As Y/N tries to immerse themselves in their work, they hear the sound of water splashing. 
+#Y/N
+:Alomar, again?
+They close the book with a snap and make their way down the pool. They find Alomar, staring at his reflection. He dips a toe into the water, and immediately flinches back. 
+Y/N had a feeling that Alomar harboured some sort of fear of water, but they didn’t know it was this severe. 
+#Y/N
+:(playful) Oh? That’s not something you see every day. 
+#Alomar
+:Oh, it’s you, Y/N. 
+#Y/N
+:Are you afraid of the water? 
+#Alomar
+:Shameful, isn’t it?
+#Y/N
+:
+[DECISION 1
+    Choice 1: Not really. (-1)
+    Choice 2: A little. (+1)
+
+1#
+1:Alomar laughs unsurely.
+1#Alomar
+1:Come on, be honest. A pirate fearful of the sea? It’s unheard of.
+
+2#
+2:Alomar booms with a loud laugh.
+2#Alomar
+2:You sound like the members of my crew.
+
+]
+
+#Alomar
+:The fears only got worse when I died. 
+#Y/N
+:When you died?
+#Alomar
+:It’s not a big deal. You can forget about it. 
+#Y/N
+:It’s okay, I want to know. 
+#Alomar
+:There was a storm in the middle of the night. Broke the keel in half. And the youngest, one of the beams of the sail fell on her and…
+#
+:Alomar’s face went dark, sullen with sadness. 
+#Alomar
+:Everyone had already evacuated on the sulls. I did what I had to do to save her. 
+#
+:Y/N scoots closer to him. Put their head on his shoulder. 
+#Y/N
+:I’m so sorry. 
+#Alomar
+:According to your history books, the crew managed to survive for a long time, so I’m not too worried about them. Alas, I am left alone once again, with only the crew’s sash to remember them all by. 
+#
+:Alomar turns to Y/N. His expression changes, going back to his pleasant. 
+#Alomar
+:Let’s talk about something else! Do you swim?
+#Y/N
+:Just a little. But haven’t swam in a while. 
+#Alomar
+:Even though you have this massive pool in your own home?
+
+[DECISION 2
+
+Choice 1: My father liked to swim. I’m indifferent. (-1)
+Choice 2: Haven’t really got into it yet. (+1)
+
+1#Alomar
+1:That’s too bad, Y/N.
+
+2#Alomar
+2:So you’re considering it? Well, I’ll look forward to the day when you have the time.
+
+]
+
+#Alomar
+:You were doing your research work, weren’t you? I’ll leave you to it. I’m okay with being left alone here. 
+#
+:Y/N hums and stands from the side of the pool. She puts her hands on her hips and takes a breath in. 
+[DECISION 2
+	Choice 1: Y/N jumps into the pool. (+1)
+	Choice 2: Y/N goes back to their research. (-1)
+
+1#Alomar
+1:What are you doing?!
+1#Y/N
+1:The water is cool!
+1#Alomar
+1:(cheeky) You’re crazy! In formal wear?! 
+1#Y/N
+1:The water isn’t so bad, Alomar, see?
+1#
+1:Speechless, Alomar begins to laugh. 
+1#Y/N
+1:Alomar, you’re not alone anymore. So take the time you need to overcome your fear, find yourself, or whatever. There is nothing to apologize for. You are not a bother at all. 
+1#
+1:Frozen, Alomar nods. 
+1#Y/N
+1:Aw, cat got your tongue, pirate?
+1#
+1:Alomar laughs. 
+1#Alomar
+1:You’re insane, Y/N. Insane. 
+
+2#Alomar
+2:Good luck, Y/N. I wish you the best in your research. Thank you for listening to me. 
+]
