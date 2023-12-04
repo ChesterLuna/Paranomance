@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
@@ -14,11 +15,18 @@ public class ButtonChoice : MonoBehaviour
     public void ChooseChoice()
     {
         FindObjectOfType<TextAnalyzer>().AnalyzeChoice(choiceValue);
-        PerformChoice();
+        AddToTotal();
+        AddToLevel();
         transform.parent.gameObject.SetActive(false);
+        transform.parent.transform.parent.Find("Background Choice").GameObject().SetActive(false);
     }
 
-    private void PerformChoice()
+    private void AddToLevel()
+    {
+        FindObjectOfType<DialogueManager>().attractionAttained = attractionPoints;
+    }
+
+    private void AddToTotal()
     {
         if (characterAttracted == "Pirate" || characterAttracted == "Alomar")
             GameSession.Pirate_Attraction += attractionPoints;
@@ -38,17 +46,6 @@ public class ButtonChoice : MonoBehaviour
         }
         
         
-        
-        // Debug.Log(GameSession.Pirate_Attraction);
-        // Debug.Log(GameSession.Victorian_Attraction);
-        // Debug.Log(GameSession.Samurai_Attraction);
-
-
-        // foreach (KeyValuePair<string, bool> kvp in GameSession.Global_Choices)
-        // {
-        //     Debug.Log( string.Format("Key = {0}, Value = {1}", kvp.Key, kvp.Value));
-        // }
-
     }
 
 }

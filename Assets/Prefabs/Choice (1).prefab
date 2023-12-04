@@ -284,3 +284,4 @@ MonoBehaviour:
   choiceValue: 49
   characterAttracted: Alomar
   attractionPoints: 1
+  choicesDone: []

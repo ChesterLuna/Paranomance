@@ -9,7 +9,12 @@ public class GeneralButton : MonoBehaviour
 
     public void ChangeScene(string sceneToLoad)
     {
-        SceneManager.LoadScene(sceneToLoad);
+        Debug.Log(sceneToLoad + "_Positive");
+        if(GameSession.Global_Choices.ContainsKey(sceneToLoad + "_Positive"))
+            SceneManager.LoadScene(sceneToLoad + "_Positive");
+        else if (GameSession.Global_Choices.ContainsKey(sceneToLoad + "_Negative"))
+            SceneManager.LoadScene(sceneToLoad + "_Negative");
+
     }
 
 

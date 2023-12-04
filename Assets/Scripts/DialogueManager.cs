@@ -4,13 +4,14 @@ using System.Collections.Generic;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class DialogueManager : MonoBehaviour
 {
     [SerializeField] TextMeshProUGUI charNameText;
     [SerializeField] TextMeshProUGUI dialogueText;
     [SerializeField] Canvas choiceCanvas;
-    //[SerializeField] int numberOfChoices;
+    [SerializeField] public int attractionAttained;
     int choicesDone = 0;
 
     public Queue<string> names = new Queue<string>();
@@ -21,6 +22,7 @@ public class DialogueManager : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
+        attractionAttained = 0;
         //names = new Queue<string>();
         //dialogues = new Queue<string>();
     }
@@ -84,9 +86,12 @@ public class DialogueManager : MonoBehaviour
         choicesDone++;
         string theChoice = "Decision " + choicesDone.ToString();
         Debug.Log(theChoice);
+
+        choiceCanvas.transform.Find("Background Choice").GameObject().SetActive(true);
         choiceCanvas.transform.Find(theChoice).GameObject().SetActive(true);
+
         //GameObject.Find(theChoice).SetActive(true);
-        
+
         //string choice = choices.Dequeue();
 
         //Debug.Log(nextName);
@@ -102,7 +107,20 @@ public class DialogueManager : MonoBehaviour
 
     public void EndDialogue()
     {
+        if(attractionAttained >= 1){
+            GameSession.Global_Choices[SceneManager.GetActiveScene().name + "_Positive"] = true;
+            Debug.Log(SceneManager.GetActiveScene().name + "_Positive");
+        }
+        else
+        {
+            GameSession.Global_Choices[SceneManager.GetActiveScene() + "_Negative"] = true;
+            Debug.Log(SceneManager.GetActiveScene().name + "_Negative");
+        }
+
+        GameSession.Global_Choices[SceneManager.GetActiveScene().name] = true;
+
         finishedDialogue = true;
+        SceneManager.LoadScene("House Map");
         Debug.Log("ENDED");
     }
 }
