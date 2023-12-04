@@ -23,7 +23,7 @@ public class ButtonChoice : MonoBehaviour
 
     private void AddToLevel()
     {
-        FindObjectOfType<DialogueManager>().attractionAttained = attractionPoints;
+        FindObjectOfType<DialogueManager>().attractionAttained += attractionPoints;
     }
 
     private void AddToTotal()

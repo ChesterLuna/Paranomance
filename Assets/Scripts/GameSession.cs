@@ -11,6 +11,7 @@ public class GameSession : MonoBehaviour
     // static public Dictionary<string, bool> Samurai_Choices = new Dictionary<string, bool>();
     // // Ex: Pirate_Choices["First_Event_Success"] = true
     [SerializeField] static public Dictionary<string, bool> Global_Choices = new Dictionary<string, bool>();
+    // [SerializeField] static public Dictionary<string, int> Global_Points = new Dictionary<string, int>();
 
     static public int Pirate_Attraction;
     static public int Victorian_Attraction;
@@ -22,22 +23,31 @@ public class GameSession : MonoBehaviour
     private void Awake()
     {
         SetUpSingleton();
+
+        if(!GameSession.Global_Choices.ContainsKey("P_Garage"))
+        {
+
+            Global_Choices["P_Garage"] = false;
+            Global_Choices["P_Common_Room"] = false;
+            Global_Choices["P_Pool"] = false;
+            Global_Choices["S_Garden"] = false;
+            Global_Choices["S_Kitchen"] = false;
+            Global_Choices["S_Roof"] = false;
+            Global_Choices["V_Study"] = false;
+            Global_Choices["V_Storage_Room"] = false;
+            Global_Choices["V_Bathroom"] = false;
+
+        }
+
+    }
+
+    private void Start()
+    {
         Pirate_Attraction = 0;
         Victorian_Attraction = 0;
         Samurai_Attraction = 0;
 
-        Global_Choices["P_Garage"] = false;
-        Global_Choices["P_Common_Room"] = false;
-        Global_Choices["P_Pool"] = false;
-        Global_Choices["S_Garden"] = false;
-        Global_Choices["S_Kitchen"] = false;
-        Global_Choices["S_Roof"] = false;
-        Global_Choices["V_Study"] = false;
-        Global_Choices["V_Storage_Room"] = false;
-        Global_Choices["V_Bathroom"] = false;
-
     }
-
     private void SetUpSingleton()
     {
         int numberGameSessions = FindObjectsOfType<GameSession>().Length;

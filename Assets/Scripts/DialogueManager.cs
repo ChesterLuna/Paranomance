@@ -29,6 +29,10 @@ public class DialogueManager : MonoBehaviour
 
     private void Start()
     {
+        if(choiceCanvas == null)
+        {
+            choiceCanvas = GameObject.Find("Choice Canvas").GetComponent<Canvas>();
+        }
         FindObjectOfType<TextAnalyzer>().AnalyzeText();
         StartDialogue();
     }
@@ -65,14 +69,14 @@ public class DialogueManager : MonoBehaviour
         //Debug.Log(nextName);
         if(nextName[0] == '@')
         {
-            Debug.Log("Entro a la cara");
-            Debug.Log(nextName[1]);
+            // Debug.Log("Entro a la cara");
+            // Debug.Log(nextName[1]);
             FindObjectOfType<PictureHandler>().UpdatePortrait((int)Char.GetNumericValue(nextName[1]));
             nextName = names.Dequeue();
         }
         if (nextName == "Choice")
         {
-            Debug.Log("VAMO A DECIDIR");
+            // Debug.Log("VAMO A DECIDIR");
             DisplayNextChoice();
             //FindObjectOfType<TextAnalyzer>().AnalyzeChoice();
             return;
@@ -85,7 +89,7 @@ public class DialogueManager : MonoBehaviour
     {
         choicesDone++;
         string theChoice = "Decision " + choicesDone.ToString();
-        Debug.Log(theChoice);
+        // Debug.Log(theChoice);
 
         choiceCanvas.transform.Find("Background Choice").GameObject().SetActive(true);
         choiceCanvas.transform.Find(theChoice).GameObject().SetActive(true);
@@ -107,17 +111,22 @@ public class DialogueManager : MonoBehaviour
 
     public void EndDialogue()
     {
-        if(attractionAttained >= 1){
-            GameSession.Global_Choices[SceneManager.GetActiveScene().name + "_Positive"] = true;
-            Debug.Log(SceneManager.GetActiveScene().name + "_Positive");
+        string neutralNameScene = SceneManager.GetActiveScene().name;
+        neutralNameScene = neutralNameScene.Replace("_Negative", "");
+        neutralNameScene = neutralNameScene.Replace("_Positive", "");
+
+        if (attractionAttained >= 1){
+            GameSession.Global_Choices[neutralNameScene + "_Positive"] = true;
+            Debug.Log(neutralNameScene + "_Positive");
         }
         else
         {
-            GameSession.Global_Choices[SceneManager.GetActiveScene() + "_Negative"] = true;
-            Debug.Log(SceneManager.GetActiveScene().name + "_Negative");
+            GameSession.Global_Choices[neutralNameScene + "_Negative"] = true;
+            Debug.Log(neutralNameScene + "_Negative");
         }
 
-        GameSession.Global_Choices[SceneManager.GetActiveScene().name] = true;
+        GameSession.Global_Choices[neutralNameScene] = true;
+        
 
         finishedDialogue = true;
         SceneManager.LoadScene("House Map");

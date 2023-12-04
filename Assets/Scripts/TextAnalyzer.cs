@@ -24,14 +24,14 @@ public class TextAnalyzer : MonoBehaviour
     }
     void Start()
     {
-        Debug.Log("Splitted text");
+        // Debug.Log("Splitted text");
 
     }
 
     public void AnalyzeText()
     {
-        Debug.Log("Entra aqui");
-        Debug.Log("Lines are " + lines.Length.ToString());
+        // Debug.Log("Entra aqui");
+        // Debug.Log("Lines are " + lines.Length.ToString());
 
         while (i < lines.Length)
         {
@@ -39,7 +39,10 @@ public class TextAnalyzer : MonoBehaviour
             {
                 if (lines[i][0] == '#')
                 {
-                    manager.names.Enqueue(lines[i].Remove(0, 1));
+                    if(lines[i].Remove(0, 1) == "")
+                        manager.names.Enqueue(" ");
+                    else
+                        manager.names.Enqueue(lines[i].Remove(0, 1));
                 }
                 if (lines[i][0] == ':')
                 {
@@ -52,12 +55,12 @@ public class TextAnalyzer : MonoBehaviour
 
                 if (lines[i][0] == '[')
                 {
-                    Debug.Log("Si pongo el choice");
+                    // Debug.Log("Si pongo el choice");
                     manager.names.Enqueue("Choice");
                     manager.dialogues.Enqueue("Choice");
 
                     i++;
-                    Debug.Log(i);
+                    // Debug.Log(i);
                     break;
                 }
             }
@@ -74,7 +77,7 @@ public class TextAnalyzer : MonoBehaviour
             {
                 if (lines[i][0] == ']')
                 {
-                    Debug.Log("Reconoce la ]");
+                    // Debug.Log("Reconoce la ]");
                     i++;
                     AnalyzeText();
                     manager.DisplayNextSentence();
@@ -88,7 +91,12 @@ public class TextAnalyzer : MonoBehaviour
                     }
                     if (lines[i][1] == '#')
                     {
-                        manager.names.Enqueue(lines[i].Remove(0, 2));
+                        if (lines[i].Remove(0, 2) == "")
+                            manager.names.Enqueue(" ");
+                        else
+                            manager.names.Enqueue(lines[i].Remove(0, 2));
+
+                        //manager.names.Enqueue(lines[i].Remove(0, 2));
                     }
                     if (lines[i][1] == ':')
                     {
