@@ -25,7 +25,7 @@ public class PictureHandler : MonoBehaviour
 
     public void DisplayDialogue()
     {
-        if(dialogueShown == false) 
+        if (dialogueShown == false)
         {
             dialogueBox.SetActive(true);
             dialogueShown = true;
