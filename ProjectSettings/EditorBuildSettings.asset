@@ -8,7 +8,22 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/House Map.unity
     guid: 32d2a7fff54c6e543abd081c60a2c29f
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/P_Garage.unity
+    guid: 086875cb41648dc43b90085e565a690d
+  - enabled: 1
+    path: Assets/Scenes/P_Common_Room_Positive.unity
+    guid: 2273e636015b48c40b85998793f6f14a
+  - enabled: 1
+    path: Assets/Scenes/P_Common_Room_Negative.unity
+    guid: 1dc24dff92d9c1e4eaca5f9636b35470
+  - enabled: 1
+    path: Assets/Scenes/P_Pool_Positive.unity
+    guid: 3fab8c1856e5437468f89004c446ad03
+  - enabled: 1
+    path: Assets/Scenes/P_Pool_Negative.unity
+    guid: 4ebf4899300a2fe49a112b40d7b8eb53
   m_configObjects: {}

@@ -14,7 +14,8 @@
 :Can’t sleep. Trying to figure out this modern game of yours. I hope you don’t mind, I found it on top of the table, but then I got cold. 
 #
 :<i>Alomar hugs his legs tighter. He puts his chin on his knees, and stares up at Y/N.
-#Alomar: If you’re not busy, would you like to…
+#Aloma
+: If you’re not busy, would you like to…
 [DECISION 1
 
 Choice 1: I suppose I have a few minutes to spare. (-1)
@@ -66,7 +67,11 @@ Choice 2: Did I bore you, Alomar? (+1)
 #Y/N
 :Why call it mundane?
 #Alomar
-:(clueless) There’s nothing wrong with mundanity. For example, you live in a large house, study history for a career and eat when you wish. I, on the other hand, never had the time to ever slow down. Following orders, cleaning decks, polishing wood, and finding ways to escape starvation. Simple games like these are nice, Y/N. I’ve always sought something grounding. 
+:(clueless) There’s nothing wrong with mundanity. For example, you live in a large house, study history for a career and eat when you wish.
+#Alomar
+:I, on the other hand, never had the time to ever slow down. Following orders, cleaning decks, polishing wood, and finding ways to escape starvation.
+#Alomar
+:Simple games like these are nice, Y/N. I’ve always sought something grounding. 
 #
 :<i>Alomar stares into Y/N’s face and sends her a wink and smirk. He returns to his competitive demeanour. 
 #Alomar

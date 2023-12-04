@@ -234,6 +234,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 167615627206001438, guid: 4a7973252726b2443b4c167aee326c7a, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: fe5b566f3b8e37e4daadb85c867c881e, type: 3}
     - target: {fileID: 2702663895192564578, guid: 4a7973252726b2443b4c167aee326c7a, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -552,6 +556,10 @@ PrefabInstance:
       propertyPath: dialogueText
       value: 
       objectReference: {fileID: 1778920740}
+    - target: {fileID: 6931805507894166927, guid: 7566d3729ad52524e931f5d29a1817b9, type: 3}
+      propertyPath: AssetText
+      value: 
+      objectReference: {fileID: 4900000, guid: db2205a46856b9743bc975852e3c97cb, type: 3}
     - target: {fileID: 8194074403984942807, guid: 7566d3729ad52524e931f5d29a1817b9, type: 3}
       propertyPath: portraitStand
       value: 
@@ -670,6 +678,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1058404198436110301, guid: 3c34b1d0cdf49a648b8c97b39f8aee77, type: 3}
+      propertyPath: m_text
+      value: "I\u2019d love to keep you company, Alomar."
+      objectReference: {fileID: 0}
+    - target: {fileID: 2552898806893055487, guid: 3c34b1d0cdf49a648b8c97b39f8aee77, type: 3}
+      propertyPath: attractionPoints
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2875312396173170106, guid: 3c34b1d0cdf49a648b8c97b39f8aee77, type: 3}
+      propertyPath: m_text
+      value: I suppose I have a few minutes to spare.
+      objectReference: {fileID: 0}
     - target: {fileID: 3005156684881695497, guid: 3c34b1d0cdf49a648b8c97b39f8aee77, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -750,13 +770,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3086480385205770245, guid: 3c34b1d0cdf49a648b8c97b39f8aee77, type: 3}
+      propertyPath: m_text
+      value: Shall I go to bed then?
+      objectReference: {fileID: 0}
+    - target: {fileID: 4665304816469746691, guid: 3c34b1d0cdf49a648b8c97b39f8aee77, type: 3}
+      propertyPath: attractionPoints
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5262078471879700985, guid: 3c34b1d0cdf49a648b8c97b39f8aee77, type: 3}
+      propertyPath: m_text
+      value: Did I bore you, Alomar?
+      objectReference: {fileID: 0}
     - target: {fileID: 6688475776077590950, guid: 3c34b1d0cdf49a648b8c97b39f8aee77, type: 3}
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 519420031}
+    - target: {fileID: 7039531829881213707, guid: 3c34b1d0cdf49a648b8c97b39f8aee77, type: 3}
+      propertyPath: m_text
+      value: "Don\u2019t worry, I\u2019ll go easy on you."
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496706227224151793, guid: 3c34b1d0cdf49a648b8c97b39f8aee77, type: 3}
+      propertyPath: attractionPoints
+      value: -1
+      objectReference: {fileID: 0}
     - target: {fileID: 7769259685691064532, guid: 3c34b1d0cdf49a648b8c97b39f8aee77, type: 3}
       propertyPath: m_Name
       value: Choice Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 8497749892325641682, guid: 3c34b1d0cdf49a648b8c97b39f8aee77, type: 3}
+      propertyPath: m_text
+      value: Cheeky, are we? Challenge accepted, pirate!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8959565111822424104, guid: 3c34b1d0cdf49a648b8c97b39f8aee77, type: 3}
+      propertyPath: attractionPoints
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

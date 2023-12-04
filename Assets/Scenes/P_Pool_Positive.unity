@@ -234,6 +234,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 167615627206001438, guid: 4a7973252726b2443b4c167aee326c7a, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9b5c46517b370d0498147423a9381a67, type: 3}
     - target: {fileID: 2702663895192564578, guid: 4a7973252726b2443b4c167aee326c7a, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -318,9 +322,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5222453047056011933, guid: 4a7973252726b2443b4c167aee326c7a, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5222453047056011933, guid: 4a7973252726b2443b4c167aee326c7a, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5222453047056011933, guid: 4a7973252726b2443b4c167aee326c7a, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7018798762093713389, guid: 4a7973252726b2443b4c167aee326c7a, type: 3}
       propertyPath: m_Name
       value: Conv Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 8490659114426319513, guid: 4a7973252726b2443b4c167aee326c7a, type: 3}
+      propertyPath: m_fontStyle
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8490659114426319513, guid: 4a7973252726b2443b4c167aee326c7a, type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 256
       objectReference: {fileID: 0}
     - target: {fileID: 8513138445940681753, guid: 4a7973252726b2443b4c167aee326c7a, type: 3}
       propertyPath: m_Camera
@@ -552,6 +576,10 @@ PrefabInstance:
       propertyPath: dialogueText
       value: 
       objectReference: {fileID: 1778920740}
+    - target: {fileID: 6931805507894166927, guid: 7566d3729ad52524e931f5d29a1817b9, type: 3}
+      propertyPath: AssetText
+      value: 
+      objectReference: {fileID: 4900000, guid: 30bdbf383b4148447b770cb3b4d36cde, type: 3}
     - target: {fileID: 8194074403984942807, guid: 7566d3729ad52524e931f5d29a1817b9, type: 3}
       propertyPath: portraitStand
       value: 
@@ -670,6 +698,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1058404198436110301, guid: 3c34b1d0cdf49a648b8c97b39f8aee77, type: 3}
+      propertyPath: m_text
+      value: A little.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2552898806893055487, guid: 3c34b1d0cdf49a648b8c97b39f8aee77, type: 3}
+      propertyPath: attractionPoints
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2875312396173170106, guid: 3c34b1d0cdf49a648b8c97b39f8aee77, type: 3}
+      propertyPath: m_text
+      value: Not really.
+      objectReference: {fileID: 0}
     - target: {fileID: 3005156684881695497, guid: 3c34b1d0cdf49a648b8c97b39f8aee77, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -750,13 +790,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3086480385205770245, guid: 3c34b1d0cdf49a648b8c97b39f8aee77, type: 3}
+      propertyPath: m_text
+      value: "My father liked to swim. I\u2019m indifferent."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4665304816469746691, guid: 3c34b1d0cdf49a648b8c97b39f8aee77, type: 3}
+      propertyPath: attractionPoints
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5262078471879700985, guid: 3c34b1d0cdf49a648b8c97b39f8aee77, type: 3}
+      propertyPath: m_text
+      value: "Haven\u2019t really got into it yet."
+      objectReference: {fileID: 0}
     - target: {fileID: 6688475776077590950, guid: 3c34b1d0cdf49a648b8c97b39f8aee77, type: 3}
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 519420031}
+    - target: {fileID: 7039531829881213707, guid: 3c34b1d0cdf49a648b8c97b39f8aee77, type: 3}
+      propertyPath: m_text
+      value: Y/N jumps into the pool.
+      objectReference: {fileID: 0}
     - target: {fileID: 7769259685691064532, guid: 3c34b1d0cdf49a648b8c97b39f8aee77, type: 3}
       propertyPath: m_Name
       value: Choice Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 8497749892325641682, guid: 3c34b1d0cdf49a648b8c97b39f8aee77, type: 3}
+      propertyPath: m_text
+      value: Y/N goes back to their research.
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

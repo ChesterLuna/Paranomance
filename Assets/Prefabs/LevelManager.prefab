@@ -47,9 +47,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterPortraits:
-  - {fileID: 21300000, guid: 0a1a5f38905eccc4fbfaebf7be4acb76, type: 3}
-  - {fileID: 21300000, guid: d6753ff539b363d4b84f89fb1dc442c3, type: 3}
-  - {fileID: 21300000, guid: ddc08a447a4175942b69ad2c7f22fdf3, type: 3}
+  - {fileID: 21300000, guid: bccda818c60247c4094c9ea31910521c, type: 3}
+  - {fileID: 21300000, guid: e60453ce1e6ea3647adf3a27f8dc69c6, type: 3}
+  - {fileID: 21300000, guid: e60453ce1e6ea3647adf3a27f8dc69c6, type: 3}
   portraitStand: {fileID: 0}
   dialogueBox: {fileID: 0}
   dialogueShown: 0
@@ -81,4 +81,5 @@ MonoBehaviour:
   charNameText: {fileID: 0}
   dialogueText: {fileID: 0}
   choiceCanvas: {fileID: 0}
+  attractionAttained: 0
   finishedDialogue: 0

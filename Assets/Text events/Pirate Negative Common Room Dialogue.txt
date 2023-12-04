@@ -8,14 +8,14 @@
 :Y/N. 
 #Y/N
 :It’s late, Alomar. What are you doing still awake? 
-Y/N looks down to the floor in front of Alomor. A board of chess lies flat, with its pieces in disordered places. 
+#
+:<i>Y/N looks down to the floor in front of Alomor. A board of chess lies flat, with its pieces in disordered places. 
 #Alomar
 :Can’t sleep. Trying to figure out this modern game of yours. I hope you don’t mind. 
 #
 :<i>Alomar stares up at Y/N.
 #Alomar
 :If you have the time, would you like to play a game?
-Y/N:
 
 [DECISION 1
 
@@ -67,8 +67,13 @@ Choice 2: Did I bore you, Alomar? (+1)
 #Y/N
 :Why call it mundane?
 #Alomar
-:(clueless) There’s nothing wrong with mundanity. For example, you live in a large house, study history for a career and eat when you wish. I, on the other hand, never had the time to slow down. Following orders, cleaning decks, polishing wood, and finding ways to escape starvation. Simple games like these are nice, Y/N. I’ve always sought something grounding. 
-Alomar stares into Y/N’s face and sends her a gentle smile. He returns to his competitive demeanour. 
+:(clueless) There’s nothing wrong with mundanity. For example, you live in a large house, study history for a career and eat when you wish.
+#Alomar
+:I, on the other hand, never had the time to slow down. Following orders, cleaning decks, polishing wood, and finding ways to escape starvation.
+#Alomar
+:Simple games like these are nice, Y/N. I’ve always sought something grounding. 
+#
+:<i>Alomar stares into Y/N’s face and sends her a gentle smile. He returns to his competitive demeanour. 
 #Alomar
 :Shall we play, Y/N? 
 

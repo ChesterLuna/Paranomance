@@ -1,8 +1,11 @@
 #
 :<i>As Y/N tries to immerse themselves in their work, they hear the sound of water splashing. 
-#Y/N: Alomar, again?
-They close the book with a snap and make their way down the pool. They find Alomar, staring at his reflection. He dips a toe into the water, and immediately flinches back. 
-Y/N had a feeling that Alomar harboured some sort of fear of water, but they didn’t know it was this severe. 
+#Y/N
+:Alomar, again?
+#
+:<i>They close the book with a snap and make their way down the pool. They find Alomar, staring at his reflection. He dips a toe into the water, and immediately flinches back. 
+#
+:<i>Y/N had a feeling that Alomar harboured some sort of fear of water, but they didn’t know it was this severe. 
 #Y/N
 :(playful) Oh? That’s not something you see every day. 
 #Alomar
@@ -15,11 +18,12 @@ Y/N had a feeling that Alomar harboured some sort of fear of water, but they did
 [DECISION 1
 
 Choice 1: Not really. (-1)
+Choice 2: A little. (+1)
+
 1#
 1:<i>Alomar laughs unsurely.
 1#Alomar
 1:Come on, be honest. A pirate fearful of the sea. Unheard of.
-Choice 2: A little. (+1)
 2#
 2:<i>Alomar booms with a loud laugh.
 2#Alomar
@@ -38,7 +42,9 @@ Choice 2: A little. (+1)
 #Y/N
 :It’s okay, I want to know. 
 #Alomar
-:The ending of every pirate’s story is almost always the same. A storm in the middle of the night. The crashing waves, and the skies’ lightning hit the ship, breaking the keel in half. One of the youngest of us, one of the beams of the sail fell on her and…
+:The ending of every pirate’s story is almost always the same. A storm in the middle of the night. The crashing waves, and the skies’ lightning hit the ship, breaking the keel in half.
+#Alomar
+:One of the youngest of us, one of the beams of the sail fell on her and…
 #
 :<i>Alomar’s face went dark, sullen with sadness. 
 #Alomar
@@ -48,7 +54,9 @@ Choice 2: A little. (+1)
 #Y/N
 :I’m so sorry. 
 #Alomar
-:It’s all the past, right? I’ve read a few of your books, it seems like my crew survived for quite a while. I bet that young girl lived a long life too. All I am left is this sash to remember them all by. But it’s a little sad, how I’m left all alone again. 
+:It’s all the past, right? I’ve read a few of your books, it seems like my crew survived for quite a while. I bet that young girl lived a long life too.
+#Alomar
+:All I am left is this sash to remember them all by. But it’s a little sad, how I’m left all alone again. 
 #
 :<i>Alomar turns to Y/N. His expression changes, going back to his outgoing and happy self. 
 #Alomar
@@ -60,9 +68,10 @@ Choice 2: A little. (+1)
 [DECISION 2
 
 Choice 1: My father liked to swim. I’m indifferent. (-1)
+Choice 2: Haven’t really got into it yet. (+1)
+
 1#Alomar
 1:That’s too bad, Y/N. I thought you could entertain me today.
-Choice 2: Haven’t really got into it yet. (+1)
 1#Alomar
 1:So you’re considering it? Well, I’ll look forward to the day when you have the time.
 ]
