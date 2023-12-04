@@ -3,10 +3,14 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GeneralButton : MonoBehaviour
 {
-
+    private void Start()
+    {
+        GetComponent<Image>().alphaHitTestMinimumThreshold = 1f;
+    }
     public void ChangeScene(string sceneToLoad)
     {
         Debug.Log(sceneToLoad + "_Positive");
