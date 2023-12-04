@@ -3,21 +3,20 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.UI;
+//using UnityEngine.UI;
 
 public class GeneralButton : MonoBehaviour
 {
-    private void Start()
-    {
-        GetComponent<Image>().alphaHitTestMinimumThreshold = 1f;
-    }
     public void ChangeScene(string sceneToLoad)
     {
-        Debug.Log(sceneToLoad + "_Positive");
         if(GameSession.Global_Choices.ContainsKey(sceneToLoad + "_Positive"))
             SceneManager.LoadScene(sceneToLoad + "_Positive");
         else if (GameSession.Global_Choices.ContainsKey(sceneToLoad + "_Negative"))
             SceneManager.LoadScene(sceneToLoad + "_Negative");
+        else if (GameSession.Global_Choices.ContainsKey(sceneToLoad))
+            SceneManager.LoadScene(sceneToLoad);
+        else
+            Debug.LogErrorFormat(sceneToLoad);
 
     }
 
