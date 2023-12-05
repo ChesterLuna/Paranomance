@@ -16,20 +16,9 @@ public class GeneralButton : MonoBehaviour
 
         if (sceneToLoad[0] == 'P')
         {
-
             int index = handler.PirateEvents.FindIndex(a => a.Contains(sceneToLoad));
-            Debug.Log("index");
-            Debug.Log(index);
-
-
-            if (index == 0)
+            if (index != 0)
             {
-                sceneToLoad = sceneToLoad;
-            }
-            else
-            {
-                Debug.Log(handler.PirateEvents[index - 1]);
-
                 if (GameSession.Global_Choices.ContainsKey(handler.PirateEvents[index - 1] + "_Positive"))
                 {
                     sceneToLoad = sceneToLoad + "_Positive";
@@ -39,10 +28,39 @@ public class GeneralButton : MonoBehaviour
                     sceneToLoad = sceneToLoad + "_Negative";
                 }
             }
-            //FindObjectOfType<MapHandler>().PirateEvents().
+        }
+        else if (sceneToLoad[0] == 'S')
+        {
+            int index = handler.SamuraiEvents.FindIndex(a => a.Contains(sceneToLoad));
+            if (index != 0)
+            {
+                if (GameSession.Global_Choices.ContainsKey(handler.SamuraiEvents[index - 1] + "_Positive"))
+                {
+                    sceneToLoad = sceneToLoad + "_Positive";
+                }
+                else if (GameSession.Global_Choices.ContainsKey(handler.SamuraiEvents[index - 1] + "_Negative"))
+                {
+                    sceneToLoad = sceneToLoad + "_Negative";
+                }
+            }
+        }
+        else if (sceneToLoad[0] == 'V')
+        {
+            int index = handler.VictorianEvents.FindIndex(a => a.Contains(sceneToLoad));
+            if (index != 0)
+            {
+                if (GameSession.Global_Choices.ContainsKey(handler.VictorianEvents[index - 1] + "_Positive"))
+                {
+                    sceneToLoad = sceneToLoad + "_Positive";
+                }
+                else if (GameSession.Global_Choices.ContainsKey(handler.VictorianEvents[index - 1] + "_Negative"))
+                {
+                    sceneToLoad = sceneToLoad + "_Negative";
+                }
+            }
         }
 
-        // string lastScene()
+
 
 
         // if(lastScene == "")

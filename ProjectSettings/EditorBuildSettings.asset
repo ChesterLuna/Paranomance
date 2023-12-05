@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/P_Pool_Negative.unity
     guid: 4ebf4899300a2fe49a112b40d7b8eb53
+  - enabled: 1
+    path: Assets/Scenes/S_Kitchen.unity
+    guid: e8d70ae4544c4d84889af9c0a0301ad8
   m_configObjects: {}
