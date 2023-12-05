@@ -10,7 +10,7 @@ public class GeneralButton : MonoBehaviour
 {
     public void ChangeScene(string sceneToLoad)
     {
-        string lastScene = "";
+        //string lastScene = "";
 
         MapHandler handler = FindObjectOfType<MapHandler>();
 
@@ -22,7 +22,7 @@ public class GeneralButton : MonoBehaviour
             Debug.Log(index);
 
 
-            if (0 == index)
+            if (index == 0)
             {
                 sceneToLoad = sceneToLoad;
             }
@@ -61,8 +61,9 @@ public class GeneralButton : MonoBehaviour
 
     public void DisplayMenu(bool display)
     {
-        GameObject.Find("Menu Canvas").transform.Find("Menu HUD").GameObject().SetActive(display);
-        GameObject.Find("Menu Canvas").transform.Find("Open Menu").GameObject().SetActive(!display);
+        Transform theCanvas = gameObject.transform.root.gameObject.transform;
+        theCanvas.Find("Menu HUD").GameObject().SetActive(display);
+        theCanvas.Find("Open Menu").GameObject().SetActive(!display);
     }
 
     public void QuitGame()

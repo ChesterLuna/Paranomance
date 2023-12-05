@@ -9,7 +9,7 @@ public class MapHandler : MonoBehaviour
     [SerializeField] GameObject MapCanvas;
 
     public List<string> PirateEvents = new List<string>() { "P_Garage", "P_Common_Room", "P_Pool" };
-    public List<string> SamuraiEvents = new List<string>() { "S_Garden", "S_Kitchen", "S_Roof" };
+    public List<string> SamuraiEvents = new List<string>() { "S_Kitchen", "S_Garden", "S_Roof" };
     public List<string> VictorianEvents = new List<string>() { "V_Study", "V_Storage_Room", "V_Bathroom" };
     // Start is called before the first frame update
     void Start()
@@ -45,20 +45,20 @@ public class MapHandler : MonoBehaviour
         }
         
         // SAMURAI STUFF
-        if (GameSession.Global_Choices["S_Garden"] == false
-        && GameSession.Global_Choices["S_Kitchen"] == false
-        && GameSession.Global_Choices["S_Roof"] == false)
-        {
-            TurnButtonOn("Garden");
-        }
-        if (GameSession.Global_Choices["S_Garden"] == true
-        && GameSession.Global_Choices["S_Kitchen"] == false
+        if (GameSession.Global_Choices["S_Kitchen"] == false
+        && GameSession.Global_Choices["S_Garden"] == false
         && GameSession.Global_Choices["S_Roof"] == false)
         {
             TurnButtonOn("Kitchen");
         }
-        if (GameSession.Global_Choices["S_Garden"] == true
-        && GameSession.Global_Choices["S_Kitchen"] == true
+        if (GameSession.Global_Choices["S_Kitchen"] == true
+        && GameSession.Global_Choices["S_Garden"] == false
+        && GameSession.Global_Choices["S_Roof"] == false)
+        {
+            TurnButtonOn("Garden");
+        }
+        if (GameSession.Global_Choices["S_Kitchen"] == true
+        && GameSession.Global_Choices["S_Garden"] == true
         && GameSession.Global_Choices["S_Roof"] == false)
         {
             TurnButtonOn("Roof");
