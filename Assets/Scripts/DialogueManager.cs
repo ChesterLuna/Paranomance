@@ -115,7 +115,7 @@ public class DialogueManager : MonoBehaviour
         neutralNameScene = neutralNameScene.Replace("_Negative", "");
         neutralNameScene = neutralNameScene.Replace("_Positive", "");
 
-        if (attractionAttained >= 1){
+        if (attractionAttained >= 2){
             GameSession.Global_Choices[neutralNameScene + "_Positive"] = true;
             Debug.Log(neutralNameScene + "_Positive");
         }

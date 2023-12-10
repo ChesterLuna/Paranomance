@@ -692,7 +692,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2552898806893055487, guid: 3c34b1d0cdf49a648b8c97b39f8aee77, type: 3}
       propertyPath: attractionPoints
-      value: -1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2552898806893055487, guid: 3c34b1d0cdf49a648b8c97b39f8aee77, type: 3}
       propertyPath: characterAttracted
@@ -788,6 +788,10 @@ PrefabInstance:
       value: "Who\u2019s this \u201Cperson\u201D? A comrade? "
       objectReference: {fileID: 0}
     - target: {fileID: 3341669949527179328, guid: 3c34b1d0cdf49a648b8c97b39f8aee77, type: 3}
+      propertyPath: attractionPoints
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3341669949527179328, guid: 3c34b1d0cdf49a648b8c97b39f8aee77, type: 3}
       propertyPath: characterAttracted
       value: Samurai
       objectReference: {fileID: 0}
@@ -813,7 +817,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7496706227224151793, guid: 3c34b1d0cdf49a648b8c97b39f8aee77, type: 3}
       propertyPath: attractionPoints
-      value: -1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7496706227224151793, guid: 3c34b1d0cdf49a648b8c97b39f8aee77, type: 3}
       propertyPath: characterAttracted

@@ -137,7 +137,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2552898806893055487, guid: 3c34b1d0cdf49a648b8c97b39f8aee77, type: 3}
       propertyPath: attractionPoints
-      value: -1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2875312396173170106, guid: 3c34b1d0cdf49a648b8c97b39f8aee77, type: 3}
       propertyPath: m_text
@@ -227,6 +227,10 @@ PrefabInstance:
       propertyPath: m_text
       value: Shall I go to bed then?
       objectReference: {fileID: 0}
+    - target: {fileID: 3341669949527179328, guid: 3c34b1d0cdf49a648b8c97b39f8aee77, type: 3}
+      propertyPath: attractionPoints
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4665304816469746691, guid: 3c34b1d0cdf49a648b8c97b39f8aee77, type: 3}
       propertyPath: attractionPoints
       value: 1
@@ -245,7 +249,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7496706227224151793, guid: 3c34b1d0cdf49a648b8c97b39f8aee77, type: 3}
       propertyPath: attractionPoints
-      value: -1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7769259685691064532, guid: 3c34b1d0cdf49a648b8c97b39f8aee77, type: 3}
       propertyPath: m_Name

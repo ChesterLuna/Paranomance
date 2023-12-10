@@ -43,7 +43,11 @@ public class MapHandler : MonoBehaviour
         {
             TurnButtonOn("Pool");
         }
-        
+        if(GameSession.Global_Choices["P_Pool"] == true)
+        {
+            TurnButtonOn("Master_Room");
+        }
+
         // SAMURAI STUFF
         if (GameSession.Global_Choices["S_Kitchen"] == false
         && GameSession.Global_Choices["S_Garden"] == false
@@ -62,6 +66,10 @@ public class MapHandler : MonoBehaviour
         && GameSession.Global_Choices["S_Roof"] == false)
         {
             TurnButtonOn("Roof");
+        }
+        if (GameSession.Global_Choices["S_Roof"] == true)
+        {
+            TurnButtonOn("Master_Room");
         }
 
 
@@ -84,6 +92,11 @@ public class MapHandler : MonoBehaviour
         {
             TurnButtonOn("Bathroom");
         }
+        if (GameSession.Global_Choices["V_Bathroom"] == true)
+        {
+            TurnButtonOn("Master_Room");
+        }
+
     }
 
     private void TurnButtonOn(string roomName)

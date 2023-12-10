@@ -60,19 +60,68 @@ public class GeneralButton : MonoBehaviour
             }
         }
 
-
-
-
-        // if(lastScene == "")
-
-        // if(GameSession.Global_Choices.ContainsKey(sceneToLoad + "_Positive"))
-        //     SceneManager.LoadScene(sceneToLoad + "_Positive");
-        // else if (GameSession.Global_Choices.ContainsKey(sceneToLoad + "_Negative"))
-        //     SceneManager.LoadScene(sceneToLoad + "_Negative");
-        // else if (GameSession.Global_Choices.ContainsKey(sceneToLoad))
         SceneManager.LoadScene(sceneToLoad);
         // else
         //     Debug.LogErrorFormat(sceneToLoad);
+
+    }
+
+    public void ChangeSceneToEnding()
+    {
+        List<string> possibleEndings = new List<string>();
+        string selectedEnding = "Neutral";
+        int maxAttraction = 0;
+
+
+        // || 
+        
+        if (GameSession.Global_Choices["P_Pool"] == true && GameSession.Pirate_Attraction >= 5)
+        {
+            if(GameSession.Pirate_Attraction > maxAttraction)
+            {
+                maxAttraction = GameSession.Pirate_Attraction;
+                possibleEndings.Clear();
+                possibleEndings.Add("P");
+            }
+            else if(GameSession.Pirate_Attraction == maxAttraction)
+            {
+                possibleEndings.Add("P");
+            }
+        }
+        if (GameSession.Global_Choices["S_Roof"] == true && GameSession.Samurai_Attraction >= 5)
+        {
+            if (GameSession.Samurai_Attraction > maxAttraction)
+            {
+                maxAttraction = GameSession.Samurai_Attraction;
+                possibleEndings.Clear();
+                possibleEndings.Add("S");
+            }
+            else if (GameSession.Samurai_Attraction == maxAttraction)
+            {
+                possibleEndings.Add("S");
+            }
+        }
+        if (GameSession.Global_Choices["V_Bathroom"] == true && GameSession.Victorian_Attraction >= 5)
+        {
+            if (GameSession.Victorian_Attraction > maxAttraction)
+            {
+                maxAttraction = GameSession.Victorian_Attraction;
+                possibleEndings.Clear();
+                possibleEndings.Add("V");
+            }
+            else if (GameSession.Victorian_Attraction == maxAttraction)
+            {
+                possibleEndings.Add("V");
+            }
+        }
+
+        if (possibleEndings.Count != 0)
+        {
+            int randInd = UnityEngine.Random.Range(0, possibleEndings.Count);
+            selectedEnding = possibleEndings[randInd];
+        }
+
+        SceneManager.LoadScene(selectedEnding + "_Ending");
 
     }
 

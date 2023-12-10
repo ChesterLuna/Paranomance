@@ -501,7 +501,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2552898806893055487, guid: 3c34b1d0cdf49a648b8c97b39f8aee77, type: 3}
       propertyPath: attractionPoints
-      value: -1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2875312396173170106, guid: 3c34b1d0cdf49a648b8c97b39f8aee77, type: 3}
       propertyPath: m_text
@@ -591,6 +591,10 @@ PrefabInstance:
       propertyPath: m_text
       value: "My father liked to swim. I\u2019m indifferent."
       objectReference: {fileID: 0}
+    - target: {fileID: 3341669949527179328, guid: 3c34b1d0cdf49a648b8c97b39f8aee77, type: 3}
+      propertyPath: attractionPoints
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4665304816469746691, guid: 3c34b1d0cdf49a648b8c97b39f8aee77, type: 3}
       propertyPath: attractionPoints
       value: 1
@@ -614,6 +618,10 @@ PrefabInstance:
     - target: {fileID: 8497749892325641682, guid: 3c34b1d0cdf49a648b8c97b39f8aee77, type: 3}
       propertyPath: m_text
       value: Y/N goes back to their research.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8959565111822424104, guid: 3c34b1d0cdf49a648b8c97b39f8aee77, type: 3}
+      propertyPath: attractionPoints
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
