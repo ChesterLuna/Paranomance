@@ -27,9 +27,27 @@ EditorBuildSettings:
     path: Assets/Scenes/P_Pool_Negative.unity
     guid: 4ebf4899300a2fe49a112b40d7b8eb53
   - enabled: 1
+    path: Assets/Scenes/P_Ending.unity
+    guid: 0bddc0242b3ffe544a35c4c8eb6e7017
+  - enabled: 1
     path: Assets/Scenes/S_Kitchen.unity
     guid: e8d70ae4544c4d84889af9c0a0301ad8
   - enabled: 1
-    path: Assets/Scenes/P_Ending.unity
-    guid: 0bddc0242b3ffe544a35c4c8eb6e7017
+    path: Assets/Scenes/V_Attic.unity
+    guid: 4361c8495c377074e85402cb66b98ae2
+  - enabled: 1
+    path: Assets/Scenes/V_Bathroom_Negative.unity
+    guid: 9675899f5d39e9747a67b79265660030
+  - enabled: 1
+    path: Assets/Scenes/V_Bathroom_Positive.unity
+    guid: e10eb6d14e73e5042bc8a1392bcac52d
+  - enabled: 1
+    path: Assets/Scenes/V_Library_Negative.unity
+    guid: f122766284995f641be71829cc2105a6
+  - enabled: 1
+    path: Assets/Scenes/V_Library_Positive.unity
+    guid: 7f5cdae77b2078346be61d36e4cf8ec4
+  - enabled: 1
+    path: Assets/Scenes/V_Ending.unity
+    guid: 19674983a60133d42aa5bccb19e0bd48
   m_configObjects: {}

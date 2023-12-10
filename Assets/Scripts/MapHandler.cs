@@ -10,7 +10,7 @@ public class MapHandler : MonoBehaviour
 
     public List<string> PirateEvents = new List<string>() { "P_Garage", "P_Common_Room", "P_Pool" };
     public List<string> SamuraiEvents = new List<string>() { "S_Kitchen", "S_Garden", "S_Roof" };
-    public List<string> VictorianEvents = new List<string>() { "V_Study", "V_Storage_Room", "V_Bathroom" };
+    public List<string> VictorianEvents = new List<string>() { "V_Attic", "V_Bathroom", "V_Library" };
     // Start is called before the first frame update
     void Start()
     {
@@ -72,27 +72,26 @@ public class MapHandler : MonoBehaviour
             TurnButtonOn("Master_Room");
         }
 
-
         // VICTORIAN STUFF
-        if (GameSession.Global_Choices["V_Study"] == false
-        && GameSession.Global_Choices["V_Storage_Room"] == false
-        && GameSession.Global_Choices["V_Bathroom"] == false)
+        if (GameSession.Global_Choices["V_Attic"] == false
+        && GameSession.Global_Choices["V_Bathroom"] == false
+        && GameSession.Global_Choices["V_Library"] == false)
         {
-            TurnButtonOn("Study");
+            TurnButtonOn("Attic");
         }
-        if (GameSession.Global_Choices["V_Study"] == true
-        && GameSession.Global_Choices["V_Storage_Room"] == false
-        && GameSession.Global_Choices["V_Bathroom"] == false)
-        {
-            TurnButtonOn("Storage_Room");
-        }
-        if (GameSession.Global_Choices["V_Study"] == true
-        && GameSession.Global_Choices["V_Storage_Room"] == true
-        && GameSession.Global_Choices["V_Bathroom"] == false)
+        if (GameSession.Global_Choices["V_Attic"] == true
+        && GameSession.Global_Choices["V_Bathroom"] == false
+        && GameSession.Global_Choices["V_Library"] == false)
         {
             TurnButtonOn("Bathroom");
         }
-        if (GameSession.Global_Choices["V_Bathroom"] == true)
+        if (GameSession.Global_Choices["V_Attic"] == true
+        && GameSession.Global_Choices["V_Bathroom"] == true
+        && GameSession.Global_Choices["V_Library"] == false)
+        {
+            TurnButtonOn("Library");
+        }
+        if (GameSession.Global_Choices["V_Library"] == true)
         {
             TurnButtonOn("Master_Room");
         }

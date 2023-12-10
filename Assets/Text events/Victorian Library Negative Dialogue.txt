@@ -1,0 +1,100 @@
+
+#Y/N
+:This really is a beautiful library… With all its shining wood architecture. And all these books! So much knowledge. I can finally get some peace and quiet. 
+#
+:<i>Suddenly, Y/N hears a very faint sound of scratching. They could easily miss it, but it becomes a discomfort to their ears. 
+#Y/N
+:Spoke too soon. What is that?
+#
+:<i>The scratching becomes more obvious. 
+#Y/N
+:Sounds like a pencil on paper? Really aggressive. Whoever that is seems to really have something to say. 
+#
+:<i>The scratching stops and is replaced by footsteps.
+#Y/N
+:Who’s up here?
+#Y/N
+:<i>Should I explore the sound?
+
+[DECISION 1
+    CHOICE 1: Yes.  (+1)
+    CHOICE 2: No.  (-1)
+
+1#
+1:<i>Y/N takes a few steps towards the noise, rounding a large bookcase.
+2#
+2:<i>Y/N chooses to stay in place. Y/N figure it's best to leave it alone.
+]
+
+#
+:<i>Ollie jumps out from behind a shelf. 
+#Ollie
+:Boo!
+#Y/N
+:A-a-a A GHOST!! 
+#Ollie
+:I thought we would have gotten past this by now. 
+#
+:<i>Ollie deeply sighs. Y/N clutches their chest. 
+#Y/N
+:Ollie! You really have got to stop doing that. Gosh, this is going to take some getting used to.
+#Ollie
+:It’s nothing. 
+#
+:<i>Ollie starts backing up from the direction they came. Arms defensively in front of them. 
+#
+:<i>Y/N quizically follows Ollie, reaching a desk with things sprawled all across it. You see a candle lighting the space. Romantic, you think. A feather quill, ink and a piece of paper lie on the desk.
+#Y/N
+:Are you writing something? 
+#
+:<i>Y/N tries to take a peak. But Ollie tries to hide the scene from view with their body. 
+#Ollie
+:I’m not doing anything.
+#Y/N
+:Ollie, you know I can see right through you, right? You’re not exactly… opaque. 
+#Ollie
+:Yes, well…
+#
+:<i>Ollie nervously adjusts their hair.
+#Ollie
+:I’m writing to my sister. She gets lonely when I don’t write to her often. She’s an awfully fretful woman, that one. 
+#
+:<i>Y/N stares at Ollie's face, questioning.
+#Y/N
+:You’re a little late for that, aren’t you?
+#Ollie
+:I was just… writing a letter. 
+#
+:<i>Ollie mumbles to themselves, refusing to make eye contact.
+#Y/N
+:What? What letter?
+#
+:<i>Ollie turns away. 
+#Ollie
+:You asked for a love letter, don’t you remember? 
+#
+:<i>Y/N looks at Ollie, dumbfounded at first, until the realization kicks in. They really are a hopeless romantic, you think.
+
+[DECISION 2
+    CHOICE 1: Well? Can I read it? +1
+    CHOICE 2: You best stop wasting your time with those silly little letters.  -1
+
+1#Ollie
+1:Not yet. Soon.
+2#
+2:Ollie's shoulders slump in defeat as they clutch the letter to their chest.
+]
+
+#Ollie
+:The letter wasn’t ready to be read yet. 
+#
+:<i>Ollie clumsily tries to collect everything on the desk. As they do this, The moonlight from the tall window above strikes their pale cheek, illuminating their sharp cheekbone.
+
+[DECISION 3
+    CHOICE 1: Have they always been this beautiful? +1
+    CHOICE 2: They look like they’re sick and dying, even in death. -1
+]
+
+#
+:<i>Ollie turns to face you, confused, as you stare.
+

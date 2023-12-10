@@ -32,7 +32,7 @@ public class ButtonChoice : MonoBehaviour
             GameSession.Pirate_Attraction += attractionPoints;
         if (characterAttracted == "Victorian" || characterAttracted == "Ollie")
             GameSession.Victorian_Attraction += attractionPoints;
-        if (characterAttracted == "Samurai" || characterAttracted == "XXX")
+        if (characterAttracted == "Samurai" || characterAttracted == "Mizuki")
             GameSession.Samurai_Attraction += attractionPoints;
 
         for(int i = 0; i < choicesDone.Length; i++)

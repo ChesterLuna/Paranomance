@@ -1,0 +1,87 @@
+
+
+
+#
+:<i>Y/N hears loud shuffling and banging noises coming from upstairs. They find the mysterious sound coming from the attic.
+#Y/N
+:What is all that… I should go check it out… 
+#
+:<i>They hear grumbling and muttering. Hesitant and slightly afraid, they follow the noise. 
+#Y/N
+:Hello…? 
+#
+:<i>The mysterious sound becomes chilling, as if from another world. They find a figure, knee deep in boxes. 
+#Y/N
+:AHHHH! It’s- It’s a gh-
+#Ollie
+:A ghost? Yes, well I thought we’d been over that. It is quite unfortunate that I’ve had to appear to you in this state.
+#Y/N
+:Ollie! You scared me! What are you doing up here?
+#Ollie
+:Well, I was feeling a little out of place and found a dusty ladder. It had to go somewhere, and here I am! When I found all these boxes, I thought I’d find something to remind me of home. 
+#
+:<i>Their eyes wander around the room. 
+#Ollie
+:Everything is so… futuristic now. 
+#
+:<i>A few boxes tumble over as they speak, and an object clatters to the ground.
+
+[DECISION 1
+    CHOICE 1: You might end up breaking something. You should get out from there… -1
+    CHOICE 2: I’m glad you’re enjoying yourself. Can I join you?  +1 
+
+1#Ollie
+1:I don’t think I need a commoner telling me what to do!
+2#Ollie
+2:<i>(starts sulking)</i> Oh! It’s just so sad. How I miss everything so dearly.
+]
+
+#
+:<i>Ollie starts stacking boxes back up in an attempt to free themselves from the clutter.
+#Ollie
+:Anyway, I haven’t poked around all that much. 
+#
+:<i>Y/N looks around to see half-open boxes and clutter lining the room.
+#Y/N
+:Totally…
+#Y/N
+:Did you find anything worth your time in all this?
+#Ollie
+:Hmm… Sort of.
+
+[DECISION 2
+    CHOICE 1: What is it? Let me see!  +1
+    CHOICE 2:You’re silly, Ollie.  -1
+1#Ollie
+1:Really? I’d love to show you.
+2#Ollie
+2:Well that’s a bit rude…
+]
+
+#Ollie
+:Anyway, I found this old thing. 
+#
+:<i>Ollie bends down to pick up a fallen object, lifting it up with some struggle.
+#Y/N
+:Is that a telephone? Where did you even find that?
+#Ollie
+:Yes, it looks to be the kind that we began using in my youth. Nowadays it seems you all have your own hand held little celly-phones. How far we’ve come in all this time.
+#Y/N
+:It’s true, but it makes things a whole lot easier.
+#Ollie
+:I’m sure it does. But nothing will beat handwritten letters. The romance and intimacy of it all… The permanence. Ah… 
+
+[DECISION 3
+    CHOICE 1: Would you ever write me a letter, Ollie? +1
+    CHOICE 2: That does sound like a lot of work though…  -1
+1#Ollie
+1:<i>Eyes lighting up, a slight blush creeps across their pale face.</i> Only if you promise to cherish it forever.
+
+2#Ollie
+2:Isn’t that half the point? Oh, you just wouldn’t understand. They click their tongue.
+]
+
+#Ollie
+:If I ever end up writing you a letter, I’m going to expect one in return too. 
+#
+:<i>Ollie gives a small wink. Y/N didn’t even think their permanently somber face muscles could manage this.

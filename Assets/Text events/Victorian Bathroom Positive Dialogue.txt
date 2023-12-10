@@ -1,0 +1,71 @@
+
+#
+:<i>Y/N hears a wailing coming from the distance. They feel a chill run down their spine and shudder. 
+#Y/N
+:What was that? It sounded an awful lot like a ghost in the walls…
+#
+:<i>The wailing becomes louder this time. Y/N follows the sound and finds that it leads to a dimly lit washroom.
+#Y/N
+:AAAAAAAAAHHHHH!! IT'S A GHOST!
+#Ollie
+:Y/N, please. I really can't do this right now.
+#
+:<i>They say in between sobs. 
+#Y/N
+:Ollie! You scared me! You look like a ghost!
+#
+:<i>Ollie makes a face of disapproval. Y/N sees Ollie looking upset. Their pale face is tear-streaked.
+
+[DECISION 1
+    CHOICE 1: Do you ask if they are okay? (+1)
+    CHOICE 2: Do you shrug it off and move on? (-1) 
+]
+
+#
+:<i>Y/N looks around for the first time and sees candles illuminating an otherwise dark washroom. 
+#Y/N
+: Umm… What’s going on here?
+#Ollie
+:I was trying to contact someone… 
+#Y/N
+:Contact someone?
+#
+:<i>Y/N sees objects in front of Ollie; they seem to be in the middle of some sort of ritual. Ollie wipes their nose with their sleeve.
+#Ollie
+:You know, from the past. 
+#Y/N
+:…from the past?
+#Ollie
+:Dead people! A seance!
+
+[DECISION 2
+    CHOICE 1: Do you join in and help? (+1)
+    CHOICE 2: Call them ridiculous and creepy? (-1)
+]
+#Y/N
+:Ollie… I’m sure there are better ways to do this.
+#Ollie
+:Like what? What could possibly be a better way of communicating than a seance? How could I possibly talk to them?
+#Y/N
+:Why don’t you try writing letters to them?
+#Ollie
+:Letters? That might not be a bad idea…
+
+[DECISION 3
+    CHOICE 1: Do you cheer Ollie up and wipe away their tears? (+1)
+    CHOICE 2: Do you throw toilet paper rolls at them? -1
+2
+#Ollie
+2
+:Ow…
+]
+
+#
+:<i>Y/N extends a hand. 
+#Y/N
+:Let’s get out of here, then.
+
+
+
+
+
