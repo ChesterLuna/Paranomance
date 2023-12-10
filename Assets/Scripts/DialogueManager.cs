@@ -31,7 +31,10 @@ public class DialogueManager : MonoBehaviour
     {
         if(choiceCanvas == null)
         {
-            choiceCanvas = GameObject.Find("Choice Canvas").GetComponent<Canvas>();
+            if(GameObject.Find("Choice Canvas") != null)
+            {
+                choiceCanvas = GameObject.Find("Choice Canvas").GetComponent<Canvas>();
+            }
         }
         FindObjectOfType<TextAnalyzer>().AnalyzeText();
         StartDialogue();
