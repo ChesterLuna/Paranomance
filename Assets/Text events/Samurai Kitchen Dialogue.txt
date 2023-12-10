@@ -2,21 +2,21 @@
 
 #
 :<i>In the kitchen, Mizuki attempts to chop vegetables carefully. She struggles, whispering her irritations. 
-#MIZUKI
+#Mizuki
 :Ugh… Blast this blade, its handle is too smooth… And why aren’t the pieces coming out even? 
 #
 :<i>Mizuki slowly and clumsily continues chopping until in frustration. 
-#MIZUKI
+#Mizuki
 :AGH, くそ！
 #
 :<i>Mizuki sends the knife down, slicing straight through the cutting board. She breathes heavily, then freezes. She gasps. 
-#MIZUKI
+#Mizuki
 :O-oh no, what have I done? 
 #
 :<i>Mizuki hastily tries to push the pieces back together. She hears footsteps behind her, realizing Y/N has walked into the kitchen. 
 #Y/N
 :Uhh, hey, are you okay?
-#MIZUKI
+#Mizuki
 :Oh, yes! I’m doing perfectly fine! 
 #
 :<i>Mizuki attempts to conceal the mess she made. Y/N raises an eyebrow. 
@@ -24,7 +24,7 @@
 :This doesn’t look like it’s “perfectly fine”.
 #
 :<i>Mizuki sighs. 
-#MIZUKI
+#Mizuki
 :Well, maybe it’s not perfectly fine. 
 #
 :<i>She moves out of the way to show the sliced cutting board. Y/N whistles in awe. 
@@ -32,27 +32,27 @@
 :Sliced clean through, you’d think it was just spare pieces of driftwood. Guess I’ll have to replace it.
 #
 :<i>Mizuki blushes and grumbles. 
-#MIZUKI
+#Mizuki
 :I was hoping at least as a ghost, I’d have better cooking skills but it seems I only have hands for drawing blood…
 
 [DECISION 1
     CHOICE 1: Don’t worry, we all have our own strengths, you’re doing good. -1
     CHOICE 2: Drawing blood? I take it you were a samurai? 1
 
-1#Girl
+1#Mizuki
 1:(irked) Don’t patronize me, you heard me!
 
-2#Girl
+2#Mizuki
 2:(proudly) Yes, you’d be correct in assuming so
 ]
 
-#MIZUKI
+#Mizuki
 :I was one of the most fearsome warriors amongst my squadron. They called me the ***, you know. Of course, being a woman, you have to fight for your place and prove yourself; weakness is unacceptable. Otherwise, I’d never have been respected, just like before I turned to the way of the blade…
 #
 :<i>Y/N cleaning up the mess. 
 #Y/N
 :You must have many stories to tell then.
-#MIZUKI
+#Mizuki
 :No one expected me to survive on the battlefield, much less excel. But one person believed me and from then on, nothing stood in our way, that is, except until… 
 #
 :<i>Mizuki goes sullen. 
@@ -70,33 +70,33 @@
 :Well, I don’t know if ghosts have much of an appetite but is there anything in particular you’d like to eat?
 #
 :<i>Mizuki ponders momentarily. 
-#MIZUKI
+#Mizuki
 :You wouldn’t happen to have rice would you?
 #
 :<i>Y/N lets out a laugh.
 #Y/N
 :Just rice?
-#MIZUKI
+#Mizuki
 :Of course not! Vegetables, perhaps a bowl of miso soup. Oh, and a side dish should go alongside it. After all, a soldier can’t fight on an empty stomach. 
 Y/N:
 [DECISION 3
 
     CHOICE 1: How about beef? -1
     CHOICE 2: How about fish? 1
-1#Girl
+1#Mizuki
 1:(distaste) That’s quite opulent of you… Shouldn’t you preserve your cattle to tend to your fields? I recall seeing fish in your ice box so let’s cook that instead.
-2#Girl
+2#Mizuki
 2:(smiling slightly) That’d be quite nostalgic, it was a classic side dish amongst my infantry. And I do remember seeing fish in your ice box, yes I think that’d be perfect.
 ]
-#MIZUKI
+#Mizuki
 :I may not be able to execute it, but my old comrade told me a delectable recipe to cook fish. I’ll instruct you, and you can do the cooking.
 #Y/N
 :Roger that!
-#MIZUKI
+#Mizuki
 :Oh, and… 
 #
 :<i>She ducks her head. 
-#MIZUKI
+#Mizuki
 :Sorry for slicing through your board… 
 #
 :<i>She looks away and blushes subtly, unbeknownst to Y/N. 
