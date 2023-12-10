@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/S_Kitchen.unity
     guid: e8d70ae4544c4d84889af9c0a0301ad8
+  - enabled: 1
+    path: Assets/Scenes/P_Ending.unity
+    guid: 0bddc0242b3ffe544a35c4c8eb6e7017
   m_configObjects: {}
