@@ -262,7 +262,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 242623625218441549, guid: 4a7973252726b2443b4c167aee326c7a, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1946070200703562032, guid: 4a7973252726b2443b4c167aee326c7a, type: 3}
       propertyPath: m_Name
@@ -278,7 +278,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3075969877475215960, guid: 4a7973252726b2443b4c167aee326c7a, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0.002121
+      value: 0.0021362305
       objectReference: {fileID: 0}
     - target: {fileID: 4169007775044472493, guid: 4a7973252726b2443b4c167aee326c7a, type: 3}
       propertyPath: m_Pivot.x
@@ -376,9 +376,21 @@ PrefabInstance:
       propertyPath: m_PreserveAspect
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6597960304082065503, guid: 4a7973252726b2443b4c167aee326c7a, type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 6693045218841972663, guid: 4a7973252726b2443b4c167aee326c7a, type: 3}
       propertyPath: m_Color.a
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6947583015004452794, guid: 4a7973252726b2443b4c167aee326c7a, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 4.9100037
+      objectReference: {fileID: 0}
+    - target: {fileID: 6947583015004452794, guid: 4a7973252726b2443b4c167aee326c7a, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 86
       objectReference: {fileID: 0}
     - target: {fileID: 7018798762093713389, guid: 4a7973252726b2443b4c167aee326c7a, type: 3}
       propertyPath: m_Name
@@ -405,6 +417,24 @@ PrefabInstance:
       value: -5.5201
       objectReference: {fileID: 0}
     - target: {fileID: 8490659114426319513, guid: 4a7973252726b2443b4c167aee326c7a, type: 3}
+      propertyPath: m_text
+      value: 'You have  nights.
+
+        Where would you like to go?'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8490659114426319513, guid: 4a7973252726b2443b4c167aee326c7a, type: 3}
+      propertyPath: m_fontSize
+      value: 33.37
+      objectReference: {fileID: 0}
+    - target: {fileID: 8490659114426319513, guid: 4a7973252726b2443b4c167aee326c7a, type: 3}
+      propertyPath: m_fontStyle
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8490659114426319513, guid: 4a7973252726b2443b4c167aee326c7a, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 33.37
+      objectReference: {fileID: 0}
+    - target: {fileID: 8490659114426319513, guid: 4a7973252726b2443b4c167aee326c7a, type: 3}
       propertyPath: m_VerticalAlignment
       value: 256
       objectReference: {fileID: 0}
@@ -428,9 +458,34 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 519420031}
+    - target: {fileID: 8663434066606685671, guid: 4a7973252726b2443b4c167aee326c7a, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 140.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 8663434066606685671, guid: 4a7973252726b2443b4c167aee326c7a, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 96.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 8892587741493627965, guid: 4a7973252726b2443b4c167aee326c7a, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -79.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 8892587741493627965, guid: 4a7973252726b2443b4c167aee326c7a, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -53.91
+      objectReference: {fileID: 0}
+    - target: {fileID: 8892587741493627965, guid: 4a7973252726b2443b4c167aee326c7a, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -6.3099976
+      objectReference: {fileID: 0}
+    - target: {fileID: 8892587741493627965, guid: 4a7973252726b2443b4c167aee326c7a, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -9.09
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 1946070200703562032, guid: 4a7973252726b2443b4c167aee326c7a, type: 3}
+    - {fileID: 3288734758442327435, guid: 4a7973252726b2443b4c167aee326c7a, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a7973252726b2443b4c167aee326c7a, type: 3}
@@ -542,17 +597,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 39caacdbdcabb8f469564fff2c882d2b, type: 3}
---- !u!114 &1179756265 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6597960304082065503, guid: 4a7973252726b2443b4c167aee326c7a, type: 3}
-  m_PrefabInstance: {fileID: 999771133}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1443756986
 GameObject:
   m_ObjectHideFlags: 0
@@ -736,7 +780,7 @@ PrefabInstance:
     - target: {fileID: 3992206439261387944, guid: 2cca15bc38ce6ed4f84bbfcc65060290, type: 3}
       propertyPath: charNameText
       value: 
-      objectReference: {fileID: 1179756265}
+      objectReference: {fileID: 0}
     - target: {fileID: 3992206439261387944, guid: 2cca15bc38ce6ed4f84bbfcc65060290, type: 3}
       propertyPath: choiceCanvas
       value: 
@@ -806,6 +850,42 @@ PrefabInstance:
       propertyPath: MapCanvas
       value: 
       objectReference: {fileID: 700669677}
+    - target: {fileID: 8020201080404945684, guid: 26efafca65084914d960b484508d2a2c, type: 3}
+      propertyPath: mapDialogue
+      value: 
+      objectReference: {fileID: 1778920740}
+    - target: {fileID: 8020201080404945684, guid: 26efafca65084914d960b484508d2a2c, type: 3}
+      propertyPath: nightsText.Array.size
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8020201080404945684, guid: 26efafca65084914d960b484508d2a2c, type: 3}
+      propertyPath: nightsText.Array.data[0]
+      value: You have 7 nights left. <br> Where would you like to go?
+      objectReference: {fileID: 0}
+    - target: {fileID: 8020201080404945684, guid: 26efafca65084914d960b484508d2a2c, type: 3}
+      propertyPath: nightsText.Array.data[1]
+      value: You have 6 nights left.<br> Where would you like to go?
+      objectReference: {fileID: 0}
+    - target: {fileID: 8020201080404945684, guid: 26efafca65084914d960b484508d2a2c, type: 3}
+      propertyPath: nightsText.Array.data[2]
+      value: You have 5 nights left. <br>Where would you like to go?
+      objectReference: {fileID: 0}
+    - target: {fileID: 8020201080404945684, guid: 26efafca65084914d960b484508d2a2c, type: 3}
+      propertyPath: nightsText.Array.data[3]
+      value: You have 4 nights left. <br>Where would you like to go?
+      objectReference: {fileID: 0}
+    - target: {fileID: 8020201080404945684, guid: 26efafca65084914d960b484508d2a2c, type: 3}
+      propertyPath: nightsText.Array.data[4]
+      value: You have 3 nights left. <br>Where would you like to go?
+      objectReference: {fileID: 0}
+    - target: {fileID: 8020201080404945684, guid: 26efafca65084914d960b484508d2a2c, type: 3}
+      propertyPath: nightsText.Array.data[5]
+      value: You have 2 nights left. <br>Where would you like to go?
+      objectReference: {fileID: 0}
+    - target: {fileID: 8020201080404945684, guid: 26efafca65084914d960b484508d2a2c, type: 3}
+      propertyPath: nightsText.Array.data[6]
+      value: This is your final night. <br>Make it count.
+      objectReference: {fileID: 0}
     - target: {fileID: 8020201080404945684, guid: 26efafca65084914d960b484508d2a2c, type: 3}
       propertyPath: SamuraiEvents.Array.data[0]
       value: S_Kitchen

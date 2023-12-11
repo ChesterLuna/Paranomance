@@ -17,6 +17,8 @@ public class GameSession : MonoBehaviour
     static public int Victorian_Attraction;
     static public int Samurai_Attraction;
 
+    static public int NightsLeft;
+
 
     [Range(0.1f, 5f)] [SerializeField] float gameSpeed = 1f;
 
@@ -26,7 +28,7 @@ public class GameSession : MonoBehaviour
 
         if(!GameSession.Global_Choices.ContainsKey("P_Garage"))
         {
-
+            NightsLeft = 7;
             Global_Choices["P_Garage"] = false;
             Global_Choices["P_Common_Room"] = false;
             Global_Choices["P_Pool"] = false;
