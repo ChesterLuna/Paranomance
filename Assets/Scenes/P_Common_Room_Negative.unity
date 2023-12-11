@@ -135,6 +135,10 @@ PrefabInstance:
       propertyPath: m_text
       value: "I\u2019d love to keep you company, Alomar."
       objectReference: {fileID: 0}
+    - target: {fileID: 2182505708927698573, guid: 3c34b1d0cdf49a648b8c97b39f8aee77, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2552898806893055487, guid: 3c34b1d0cdf49a648b8c97b39f8aee77, type: 3}
       propertyPath: attractionPoints
       value: 0
@@ -239,13 +243,57 @@ PrefabInstance:
       propertyPath: m_text
       value: Did I bore you, Alomar?
       objectReference: {fileID: 0}
+    - target: {fileID: 5520230647590486352, guid: 3c34b1d0cdf49a648b8c97b39f8aee77, type: 3}
+      propertyPath: m_Colors.m_PressedColor.b
+      value: 0.6698113
+      objectReference: {fileID: 0}
+    - target: {fileID: 5520230647590486352, guid: 3c34b1d0cdf49a648b8c97b39f8aee77, type: 3}
+      propertyPath: m_Colors.m_PressedColor.g
+      value: 0.6698113
+      objectReference: {fileID: 0}
+    - target: {fileID: 5520230647590486352, guid: 3c34b1d0cdf49a648b8c97b39f8aee77, type: 3}
+      propertyPath: m_Colors.m_PressedColor.r
+      value: 0.6698113
+      objectReference: {fileID: 0}
+    - target: {fileID: 5520230647590486352, guid: 3c34b1d0cdf49a648b8c97b39f8aee77, type: 3}
+      propertyPath: m_Colors.m_DisabledColor.b
+      value: 0.1792453
+      objectReference: {fileID: 0}
+    - target: {fileID: 5520230647590486352, guid: 3c34b1d0cdf49a648b8c97b39f8aee77, type: 3}
+      propertyPath: m_Colors.m_DisabledColor.g
+      value: 0.1792453
+      objectReference: {fileID: 0}
+    - target: {fileID: 5520230647590486352, guid: 3c34b1d0cdf49a648b8c97b39f8aee77, type: 3}
+      propertyPath: m_Colors.m_DisabledColor.r
+      value: 0.1792453
+      objectReference: {fileID: 0}
+    - target: {fileID: 5520230647590486352, guid: 3c34b1d0cdf49a648b8c97b39f8aee77, type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.b
+      value: 0.8679245
+      objectReference: {fileID: 0}
+    - target: {fileID: 5520230647590486352, guid: 3c34b1d0cdf49a648b8c97b39f8aee77, type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.g
+      value: 0.8679245
+      objectReference: {fileID: 0}
+    - target: {fileID: 5520230647590486352, guid: 3c34b1d0cdf49a648b8c97b39f8aee77, type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.r
+      value: 0.8679245
+      objectReference: {fileID: 0}
     - target: {fileID: 6688475776077590950, guid: 3c34b1d0cdf49a648b8c97b39f8aee77, type: 3}
       propertyPath: m_Camera
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 519420031}
     - target: {fileID: 7039531829881213707, guid: 3c34b1d0cdf49a648b8c97b39f8aee77, type: 3}
       propertyPath: m_text
       value: "Don\u2019t worry, I\u2019ll go easy on you."
+      objectReference: {fileID: 0}
+    - target: {fileID: 7472720159101635991, guid: 3c34b1d0cdf49a648b8c97b39f8aee77, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1270019354, guid: 7f6f80ffc95d1d941b9c3e82a2b56911, type: 3}
+    - target: {fileID: 7472720159101635991, guid: 3c34b1d0cdf49a648b8c97b39f8aee77, type: 3}
+      propertyPath: m_PixelsPerUnitMultiplier
+      value: 0.12
       objectReference: {fileID: 0}
     - target: {fileID: 7496706227224151793, guid: 3c34b1d0cdf49a648b8c97b39f8aee77, type: 3}
       propertyPath: attractionPoints
