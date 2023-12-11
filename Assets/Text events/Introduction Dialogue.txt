@@ -15,10 +15,10 @@
 #Y/N
 :Although this place feels kind of empty… Other than my books and myself, I’m all alone…
 #Y/N
-:Oh I know! I need to get stuff to decorate the place. Illwill<i><sup>tm</sup</i> should be a good place for it.
+:Oh I know! I need to get stuff to decorate the place. Illwill<i><sup>tm</sup></i> should be a good place for it.
 
 #
-:<i>Y/N drives to Illwill<i><sup>tm</sup</i> searching for trinkets to fill their new house. They go through each section skimming for something that looks expensive.
+:<i>Y/N drives to Illwill<i><sup>tm</sup></i> searching for trinkets to fill their new house. They go through each section skimming for something that looks expensive.
 #
 :<i>After a couple of minutes of Y/N going around the aisles they find something that catches their eye…
 
@@ -56,6 +56,7 @@
 
 #
 :<i>Until a chandelier fell and lit up the sash in flames.
+$ Animation Blinking Blue
 #
 :<i>Y/N was lamenting themselves for losing such valuable artifacts when suddenly… Three blue figures appeared in front of Y/N, coming from inside the objects.
 #
@@ -103,6 +104,7 @@
 :YOU ARE GHOSTS!?
 #The three of them
 :WE ARE GHOSTS!?
+$ Animation Scatter
 #
 :<i>The three of them scatter around the place. Alomar is opening and slamming doors trying to escape. Ollie is crying loudly on the floor. Mizuki is frozen looking at a certain point.
 

@@ -1,16 +1,22 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 
 public class MapHandler : MonoBehaviour
 {
     [SerializeField] GameObject MapCanvas;
+    int totalNights = 7;
+    [SerializeField] int nightsLeft = 7;
+    [SerializeField] TextMeshProUGUI mapDialogue;
+    [SerializeField] string[] nightsText;
 
     public List<string> PirateEvents = new List<string>() { "P_Garage", "P_Common_Room", "P_Pool" };
     public List<string> SamuraiEvents = new List<string>() { "S_Kitchen", "S_Garden", "S_Roof" };
     public List<string> VictorianEvents = new List<string>() { "V_Attic", "V_Bathroom", "V_Library" };
+
     // Start is called before the first frame update
     void Start()
     {
@@ -19,10 +25,8 @@ public class MapHandler : MonoBehaviour
         //     //textBox3.Text += ("Key = {0}, Value = {1}", kvp.Key, kvp.Value);
         //     Console.WriteLine("Key = {0}, Value = {1}", kvp.Key, kvp.Value);
         // }
-
-        Debug.Log(GameSession.Global_Choices["P_Garage"]);
-        Debug.Log(GameSession.Global_Choices["P_Common_Room"]);
-        Debug.Log(GameSession.Global_Choices["P_Pool"]);
+        nightsLeft = GameSession.NightsLeft;
+        mapDialogue.text = nightsText[totalNights - nightsLeft];
 
         // PIRATE STUFF
         if (GameSession.Global_Choices["P_Garage"] == false

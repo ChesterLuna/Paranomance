@@ -134,9 +134,10 @@ GameObject:
   - component: {fileID: 102441050}
   - component: {fileID: 102441052}
   - component: {fileID: 102441051}
+  - component: {fileID: 102441053}
   m_Layer: 5
   m_Name: Character Portrait (2)
-  m_TagString: Untagged
+  m_TagString: Animation
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -173,7 +174,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -198,6 +199,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 102441049}
   m_CullTransparentMesh: 1
+--- !u!111 &102441053
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 102441049}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations:
+  - {fileID: 7400000, guid: 2987efcb9a8846c41b0206ceb3e5e670, type: 2}
+  - {fileID: 7400000, guid: 87b419ff0c6b9514e93475e04bdd4dc4, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -317,6 +335,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Character Portrait (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1946070200703562032, guid: 4a7973252726b2443b4c167aee326c7a, type: 3}
+      propertyPath: m_TagString
+      value: Animation
+      objectReference: {fileID: 0}
     - target: {fileID: 2702663895192564578, guid: 4a7973252726b2443b4c167aee326c7a, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -405,6 +427,14 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: e60453ce1e6ea3647adf3a27f8dc69c6, type: 3}
+    - target: {fileID: 5222453047056011933, guid: 4a7973252726b2443b4c167aee326c7a, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6947583015004452794, guid: 4a7973252726b2443b4c167aee326c7a, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 4.9100037
+      objectReference: {fileID: 0}
     - target: {fileID: 7018798762093713389, guid: 4a7973252726b2443b4c167aee326c7a, type: 3}
       propertyPath: m_Name
       value: Conv Canvas
@@ -426,7 +456,10 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4169007775044472493, guid: 4a7973252726b2443b4c167aee326c7a, type: 3}
       insertIndex: 3
       addedObject: {fileID: 2044290684}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1946070200703562032, guid: 4a7973252726b2443b4c167aee326c7a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1978103889}
   m_SourcePrefab: {fileID: 100100000, guid: 4a7973252726b2443b4c167aee326c7a, type: 3}
 --- !u!224 &999771134 stripped
 RectTransform:
@@ -585,6 +618,23 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1946070200703562032, guid: 4a7973252726b2443b4c167aee326c7a, type: 3}
   m_PrefabInstance: {fileID: 999771133}
   m_PrefabAsset: {fileID: 0}
+--- !u!111 &1978103889
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1978103888}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations:
+  - {fileID: 7400000, guid: 2987efcb9a8846c41b0206ceb3e5e670, type: 2}
+  - {fileID: 7400000, guid: 545e02cbb1e70ca48b29dd74de939cc8, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &2044290683
 GameObject:
   m_ObjectHideFlags: 0
@@ -596,9 +646,10 @@ GameObject:
   - component: {fileID: 2044290684}
   - component: {fileID: 2044290686}
   - component: {fileID: 2044290685}
+  - component: {fileID: 2044290687}
   m_Layer: 5
   m_Name: Character Portrait (3)
-  m_TagString: Untagged
+  m_TagString: Animation
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -635,7 +686,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -660,6 +711,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2044290683}
   m_CullTransparentMesh: 1
+--- !u!111 &2044290687
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2044290683}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations:
+  - {fileID: 7400000, guid: 2987efcb9a8846c41b0206ceb3e5e670, type: 2}
+  - {fileID: 7400000, guid: a2347ad158547de44bf8f7f2fb5586f8, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1001 &2844839909056798267
 PrefabInstance:
   m_ObjectHideFlags: 0

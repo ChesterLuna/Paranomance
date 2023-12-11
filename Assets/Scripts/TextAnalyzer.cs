@@ -52,16 +52,21 @@ public class TextAnalyzer : MonoBehaviour
                 {
                     manager.names.Enqueue(lines[i]);
                 }
-
                 if (lines[i][0] == '[')
                 {
-                    // Debug.Log("Si pongo el choice");
                     manager.names.Enqueue("Choice");
                     manager.dialogues.Enqueue("Choice");
 
                     i++;
-                    // Debug.Log(i);
                     break;
+                }
+                if (lines[i][0] == '$')
+                {
+                    manager.names.Enqueue("Animation");
+                    //manager.dialogues.Enqueue("Animation");
+
+                    //i++;
+                    //break;
                 }
             }
             i++;
@@ -102,7 +107,11 @@ public class TextAnalyzer : MonoBehaviour
                     {
                         manager.dialogues.Enqueue(lines[i].Remove(0, 2));
                     }
-                    
+                    // if (lines[i][1] == '$')
+                    // { ANIMATION
+                    //     manager.dialogues.Enqueue(lines[i].Remove(0, 2));
+                    // }
+
                 }
             }
             i++;
