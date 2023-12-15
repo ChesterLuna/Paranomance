@@ -9,9 +9,8 @@ public class PictureHandler : MonoBehaviour
     //[SerializeField] GameObject[] portraitStands;
     [SerializeField] GameObject portraitStand;
 
-    [SerializeField] GameObject dialogueBox;
-    [SerializeField] bool dialogueShown = false;
-
+    [SerializeField] GameObject pictureDisplayed;
+    [SerializeField] bool pictureShown = false;
 
 
     public void UpdatePortrait(int index)
@@ -23,20 +22,20 @@ public class PictureHandler : MonoBehaviour
         portraitStand.GetComponent<Image>().sprite = characterPortraits[index];
     }
 
-    public void DisplayDialogue()
+    public void DisplayPicture()
     {
-        if (dialogueShown == false)
+        if (pictureShown == false)
         {
-            dialogueBox.SetActive(true);
-            dialogueShown = true;
+            pictureDisplayed.SetActive(true);
+            pictureShown = true;
             return;
         }
-        if (dialogueShown == true)
+        if (pictureShown == true)
         {
-            dialogueBox.SetActive(false);
-            dialogueShown = false;
+            pictureDisplayed.SetActive(false);
+            pictureShown = false;
             return;
         }
-
     }
+
 }

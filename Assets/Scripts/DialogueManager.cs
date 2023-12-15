@@ -1,10 +1,13 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+//using Microsoft.Unity.VisualStudio.Editor;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Audio;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -14,6 +17,7 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] public int attractionAttained;
     int choicesDone = 0;
     int animationsDone = 0;
+    [SerializeField] GameObject fader;
 
     public Queue<string> names = new Queue<string>();
     public Queue<string> dialogues = new Queue<string>();
@@ -35,6 +39,14 @@ public class DialogueManager : MonoBehaviour
                 choiceCanvas = GameObject.Find("Choice Canvas").GetComponent<Canvas>();
             }
         }
+        if (fader == null)
+        {
+            if (GameObject.Find("Fader") != null)
+            {
+                fader = GameObject.Find("Fader");
+            }
+        }
+
         FindObjectOfType<TextAnalyzer>().AnalyzeText();
         StartDialogue();
     }
@@ -60,7 +72,7 @@ public class DialogueManager : MonoBehaviour
     public void DisplayNextSentence()
     {
         //Debug.Log("Enqueue");
-        if(dialogues.Count == 0)
+        if(dialogues.Count == 0 && finishedDialogue == false)
         {
             EndDialogue();
             return;
@@ -129,7 +141,8 @@ public class DialogueManager : MonoBehaviour
         neutralNameScene = neutralNameScene.Replace("_Negative", "");
         neutralNameScene = neutralNameScene.Replace("_Positive", "");
 
-        if (attractionAttained >= 2){
+        if (attractionAttained >= 2)
+        {
             GameSession.Global_Choices[neutralNameScene + "_Positive"] = true;
             Debug.Log(neutralNameScene + "_Positive");
         }
@@ -140,11 +153,57 @@ public class DialogueManager : MonoBehaviour
         }
 
         GameSession.Global_Choices[neutralNameScene] = true;
-        
+
 
         finishedDialogue = true;
-        GameSession.NightsLeft--;
-        SceneManager.LoadScene("House Map");
 
+        if(GameObject.Find("LevelManager") != null)
+        {
+            AudioMixer mixer = GameObject.Find("LevelManager").GetComponent<AudioSource>().outputAudioMixerGroup.audioMixer;
+            StartCoroutine(FadeMixerGroup.StartFade(mixer, "vol1", 1f, 0f));
+
+        }
+
+        StartCoroutine(StartFadeOut(fader, 1f, 1f));
+
+
+        // LoadSceneAfterDialogue(neutralNameScene);
+
+        if (neutralNameScene == "P_Ending" || neutralNameScene == "S_Ending" || neutralNameScene == "V_Ending" || neutralNameScene == "Neutral_Ending")
+        {
+            Invoke("LoadMainMenu", 1f);
+        }
+        else
+        {
+            Invoke("LoadHouseMap", 1f);
+        }
+    }
+
+    public static IEnumerator StartFadeOut(GameObject fader, float duration, float alpha)
+    {
+        float currentTime = 0;
+        float currentAlpha = fader.GetComponent<Image>().color.a;
+        float targetValue = Mathf.Clamp(alpha, 0.0001f, 1f);
+        while (currentTime < duration)
+        {
+            currentTime += Time.deltaTime;
+
+            float newAlpha = Mathf.Lerp(currentAlpha, targetValue, currentTime / duration);
+            fader.GetComponent<Image>().color =
+            new Color(fader.GetComponent<Image>().color.r, fader.GetComponent<Image>().color.g, fader.GetComponent<Image>().color.b, newAlpha);
+            yield return null;
+        }
+        yield break;
+    }
+
+
+    private void LoadMainMenu()
+    {
+        Destroy(GameObject.Find("GameSession"));
+        SceneManager.LoadScene("Main Menu");
+    }
+    private void LoadHouseMap()
+    {
+        SceneManager.LoadScene("House Map");
     }
 }

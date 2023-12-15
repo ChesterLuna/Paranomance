@@ -1,9 +1,9 @@
 #
-:<i>As Y/N heads to their room, they pass by the common room. They see a light peaking out from under the door frame. 
+:<i>As Y/N heads to their room, they pass by the common room. They see a light peeking out from under the door frame. 
 #
 :<i>Y/N pushes the door open and hears the crackling sound of the fireplace. Alomar sits in front of it. They looms over his shoulder. 
 #Y/N
-:(curious) What are you doing?
+:<i>(curious)</i> What are you doing?
 #Alomar
 :Y/N. 
 #Y/N
@@ -61,7 +61,7 @@ Choice 2: Did I bore you, Alomar? (+1)
 ]
 
 #Alomar
-:On the ship, we played games such as who can clean the desk the fastest or who can spit the furthest. I meant no offence, Y/N.
+:On the ship, we played games such as who can clean the deck the fastest or who can spit the furthest. I meant no offence, Y/N.
 #
 :<i>Y/N nods, glad they interpreted his intentions the wrong way. 
 #Y/N
@@ -88,7 +88,7 @@ Choice 2: Cheeky, are we? Challenge accepted, pirate! (+1)
 2#
 :Alomar smiles wide and makes the first move.
 2#Alomar
-2:(playful) Watch your tongue, historian!
+2:<i>(playful)</i> Watch your tongue, historian!
 ]
 
 

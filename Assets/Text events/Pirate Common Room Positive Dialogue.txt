@@ -1,9 +1,9 @@
 #
-:<i>As Y/N heads to their room, they pass by the common room. They see a light peaking out from under the door frame. 
+:<i>As Y/N heads to their room, they pass by the common room. They see a light peeking out from under the door frame. 
 #
-:<i>Y/N pushes the door open and hears the crackling sound of the fireplace. Alomar sits in front of it. She looms over his shoulder. 
+:<i>Y/N pushes the door open and hears the crackling sound of the fireplace. Alomar sits in front of it. They loom over his shoulder. 
 #Y/N
-:(curious) What are you doing?
+:<i>(curious)</i> What are you doing?
 #Alomar
 :Y/N! You’re done with your work! 
 #Y/N
@@ -14,8 +14,8 @@
 :Can’t sleep. Trying to figure out this modern game of yours. I hope you don’t mind, I found it on top of the table, but then I got cold. 
 #
 :<i>Alomar hugs his legs tighter. He puts his chin on his knees, and stares up at Y/N.
-#Aloma
-: If you’re not busy, would you like to…
+#Alomar
+:If you’re not busy, would you like to…
 [DECISION 1
 
 Choice 1: I suppose I have a few minutes to spare. (-1)
@@ -30,7 +30,7 @@ Choice 2: I’d love to keep you company, Alomar. (+1)
 ]
 
 #Y/N
-:Y/N takes a seat beside him. She extends her hands to feel the warmth of the fire. 
+:Y/N takes a seat beside him. They extend their hands to feel the warmth of the fire. 
 #Y/N
 :You know, it takes two to play this game. There’s a manual somewhere…
 #Alomar
@@ -38,7 +38,7 @@ Choice 2: I’d love to keep you company, Alomar. (+1)
 #
 :<i>Before Alomar can finish his sentence, Y/N is already setting up the board. 
 #
-:<i>She explains the basic rules of chess, the function of each piece and the objective of the game. Alomar leans in, with a hand to his chin, listening intently to Y/N.
+:<i>They explain the basic rules of chess, the function of each piece and the objective of the game. Alomar leans in, with a hand to his chin, listening intently to Y/N.
 #Alomar
 :So all these pieces, all serve one purpose, can only move in specific ways. And to win, you must take… that king piece. 
 #Y/N
@@ -61,19 +61,19 @@ Choice 2: Did I bore you, Alomar? (+1)
 ]
 
 #Alomar
-:On the ship, we played games such as who can clean the desk the fastest or who can spit the furthest. I meant no offence, Y/N! I, too, am enthralled by the simplest of things!
+:On the ship, we played games such as who can clean the deck the fastest or who can spit the furthest. I meant no offence, Y/N! I, too, am enthralled by the simplest of things!
 #
-:<i>Y/N covers her laugh with the back of her hand. 
+:<i>Y/N covers their laugh with the back of their hand. 
 #Y/N
 :Why call it mundane?
 #Alomar
-:(clueless) There’s nothing wrong with mundanity. For example, you live in a large house, study history for a career and eat when you wish.
+:<i>(clueless)</i> There’s nothing wrong with mundanity. For example, you live in a large house, study history for a career and eat when you wish.
 #Alomar
 :I, on the other hand, never had the time to ever slow down. Following orders, cleaning decks, polishing wood, and finding ways to escape starvation.
 #Alomar
 :Simple games like these are nice, Y/N. I’ve always sought something grounding. 
 #
-:<i>Alomar stares into Y/N’s face and sends her a wink and smirk. He returns to his competitive demeanour. 
+:<i>Alomar stares into Y/N’s face and sends them a wink and smirk. He returns to his competitive demeanour. 
 #Alomar
 :Shall we play, Y/N? 
 [DECISION 3
@@ -86,6 +86,6 @@ Choice 2: Cheeky, are we? Challenge accepted, pirate! (+1)
 2#
 2:Alomar smiles wide and makes the first move. 
 2#Alomar
-2:(playful) Watch your tongue, historian!
+2:<i>(playful)</i> Watch your tongue, historian!
 ]
 

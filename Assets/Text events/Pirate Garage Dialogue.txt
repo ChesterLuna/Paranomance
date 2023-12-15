@@ -9,11 +9,11 @@
 #Alomar
 :This must be your ship for land! How interesting! 
 #
-:<i>His heavy footsteps fall Alomar onto the car. 
+:<i>Alomar heavy footsteps fall onto the car. 
 
 [DECISION 1
-Choice 1: (baffled) First of all, get down from there. (-1) 
-Choice 2: (amused) It’s a car. (+1) 
+Choice 1: <i>(baffled)</i> First of all, get down from there. (-1) 
+Choice 2: <i>(amused)</i> It’s a car. (+1) 
 
 1#
 1:Alomar frowns and dismounts the vehicle sadly.
@@ -61,7 +61,7 @@ Choice 2: (amused) It’s a car. (+1)
 #Alomar
 :Living my entire life with the crew is something I do not regret one bit. Nor is dying for the sake of them. 
 #Y/N
-:(thinking) Dying for the sake of them? What does that mean? 
+:<i>(thinking)</i> Dying for the sake of them? What does that mean? 
 #Alomar
 :But, Y/N, a simple life would be nice, you know? Though the seas have much to discover, I am far more fascinated by land. Y/N, what do you think? 
 

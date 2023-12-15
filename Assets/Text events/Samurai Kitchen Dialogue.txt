@@ -7,7 +7,7 @@
 #
 :<i>Mizuki slowly and clumsily continues chopping until in frustration. 
 #Mizuki
-:AGH, くそ！
+:AGH, KUSO!
 #
 :<i>Mizuki sends the knife down, slicing straight through the cutting board. She breathes heavily, then freezes. She gasps. 
 #Mizuki
@@ -23,7 +23,7 @@
 #Y/N
 :This doesn’t look like it’s “perfectly fine”.
 #
-:<i>Mizuki sighs. 
+:<i>Mizuki sighs.
 #Mizuki
 :Well, maybe it’s not perfectly fine. 
 #
@@ -40,14 +40,14 @@
     CHOICE 2: Drawing blood? I take it you were a samurai? 1
 
 1#Mizuki
-1:(irked) Don’t patronize me, you heard me!
+1:<i>(irked)</i> Don’t patronize me, you heard me!
 
 2#Mizuki
-2:(proudly) Yes, you’d be correct in assuming so
+2:<i>(proudly)</i> Yes, you’d be correct in assuming so
 ]
 
 #Mizuki
-:I was one of the most fearsome warriors amongst my squadron. They called me the ***, you know. Of course, being a woman, you have to fight for your place and prove yourself; weakness is unacceptable. Otherwise, I’d never have been respected, just like before I turned to the way of the blade…
+:I was one of the most fearsome warriors amongst my squadron. They called me the Blooming Blade, you know. Of course, being a woman, you have to fight for your place and prove yourself; weakness is unacceptable. Otherwise, I’d never have been respected, just like before I turned to the way of the blade…
 #
 :<i>Y/N cleaning up the mess. 
 #Y/N
@@ -57,7 +57,7 @@
 #
 :<i>Mizuki goes sullen. 
 [DECISION 2
-    CHOICE 1: <i>Who’s this “person”? A comrade? -1
+    CHOICE 1: Who’s this “person”? A comrade? -1
     CHOICE 2: Hm, how about we lift the mood with a meal? 1
 
 1#Mizuki
@@ -84,9 +84,9 @@ Y/N:
     CHOICE 1: How about beef? -1
     CHOICE 2: How about fish? 1
 1#Mizuki
-1:(distaste) That’s quite opulent of you… Shouldn’t you preserve your cattle to tend to your fields? I recall seeing fish in your ice box so let’s cook that instead.
+1:<i>(distaste)</i> That’s quite opulent of you… Shouldn’t you preserve your cattle to tend to your fields? I recall seeing fish in your ice box so let’s cook that instead.
 2#Mizuki
-2:(smiling slightly) That’d be quite nostalgic, it was a classic side dish amongst my infantry. And I do remember seeing fish in your ice box, yes I think that’d be perfect.
+2:<i>(smiling slightly)</i> That’d be quite nostalgic, it was a classic side dish amongst my infantry. And I do remember seeing fish in your ice box, yes I think that’d be perfect.
 ]
 #Mizuki
 :I may not be able to execute it, but my old comrade told me a delectable recipe to cook fish. I’ll instruct you, and you can do the cooking.

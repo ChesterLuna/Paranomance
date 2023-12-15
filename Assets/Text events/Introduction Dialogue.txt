@@ -33,7 +33,7 @@
 :How can they have these invaluable artifacts in the same section as souvenirs from Cancun! I have to buy them.
 
 #
-:<i>Y/N goes to the counter and pays 420.69 cents from their uncle's life insurance. They drive them to their uncle's mansion in a cardboard box.
+:<i>Y/N goes to the counter and pays 420.69 cents from their uncle's life insurance. Then they drive back to their uncle's mansion.
 
 #Y/N
 :<i>(Entering the mansion)</i> I could write a paper about every object here. I might even discover something important about human history.
@@ -47,7 +47,7 @@
 :I can just chill and exhibit them in my new mansion!
 
 #
-:<i>At that moment Y/N tripped with the rug and dropped the cardboard box with all the objects to the floor. They all fell in front of him. 
+:<i>At that moment, Y/N tripped with the rug and dropped the cardboard box with all the objects to the floor. They all fell in front of him. 
 #Y/N
 :Nooooooooooooooooooooooooo!
 
@@ -60,7 +60,7 @@ $ Animation Blinking Blue
 #
 :<i>Y/N was lamenting themselves for losing such valuable artifacts when suddenly… Three blue figures appeared in front of Y/N, coming from inside the objects.
 #
-:<i>Slowly the blue tint faded away and Y/N was left in a room with three particularly dressed characters.
+:<i>Slowly the blue tint faded away and Y/N was left in a room with three peculiarly dressed characters.
 
 #Unknown Hunk
 :HAAAAARR!
@@ -121,12 +121,11 @@ $ Animation Scatter
 #
 :<i>Y/N looks back at the ghosts suffering the knowledge of their own death.
 #Creepy Uncle
-:Don’t worryyy! Just chill and hangout with these dudes for 7 days and something interesting might happen! Maybe watch some MeshFlix<i><sup>tm</sup</i> if you know what I-
+:Don’t worryyy! Just chill and hangout with these dudes for 7 days and something interesting might happen! Maybe watch some MeshFlix<i><sup>tm</sup></i> if you know what I-
 #Y/N
 :Stop. What are you talking about? What type of magic did you cast? What is going to happen? Why 7 days?!
 #Creepy Uncle
-:
-Oh sorry! <i>(Their voice is fading)</i> I think I’m going through a ghostly tunnel! Happy wooing!
+:Oh sorry! <i>(Their voice is fading)</i> I think I’m going through a ghostly tunnel! Happy wooing!
 #
 :<i>Y/N slapped their face.
 #Y/N
@@ -137,7 +136,7 @@ Oh sorry! <i>(Their voice is fading)</i> I think I’m going through a ghostly t
 :You can explore everything and please get accustomed to the place. We got a lot to learn from each other.
 
 #Mizuki
-:<i>(Still looking at a random point in the room)</i> Yeah, we will…
+:<i>(Looking at a random point in the room, traumatized)</i> Yeah, we will…
 
 
 

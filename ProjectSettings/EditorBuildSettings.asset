@@ -6,8 +6,14 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Main Menu.unity
+    guid: 0c033b6396300c44ba3e1e158a7f2b1c
+  - enabled: 1
     path: Assets/Scenes/House Map.unity
     guid: 32d2a7fff54c6e543abd081c60a2c29f
+  - enabled: 1
+    path: Assets/Scenes/Intro.unity
+    guid: 4d1dc5564fe9afe45be16cc3f0dba9da
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
@@ -33,6 +39,21 @@ EditorBuildSettings:
     path: Assets/Scenes/S_Kitchen.unity
     guid: e8d70ae4544c4d84889af9c0a0301ad8
   - enabled: 1
+    path: Assets/Scenes/S_Garden_Negative.unity
+    guid: 1087acd31a6f3fc4f84f723e6f41155a
+  - enabled: 1
+    path: Assets/Scenes/S_Garden_Positive.unity
+    guid: 291278dace0bbde429005cd6889fe583
+  - enabled: 1
+    path: Assets/Scenes/S_Roof_Negative.unity
+    guid: 40f188bbbe7ea5d4ab5082525e5639e5
+  - enabled: 1
+    path: Assets/Scenes/S_Roof_Positive.unity
+    guid: 7c5ffa5dabf41db40815f785f6ae9b1c
+  - enabled: 1
+    path: Assets/Scenes/S_Ending.unity
+    guid: a3d808c849e69b1439edda41d0b66a13
+  - enabled: 1
     path: Assets/Scenes/V_Attic.unity
     guid: 4361c8495c377074e85402cb66b98ae2
   - enabled: 1
@@ -50,4 +71,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/V_Ending.unity
     guid: 19674983a60133d42aa5bccb19e0bd48
+  - enabled: 1
+    path: Assets/Scenes/Neutral_Ending.unity
+    guid: b8e6f550ed7708f4999110cc1b1fe016
   m_configObjects: {}

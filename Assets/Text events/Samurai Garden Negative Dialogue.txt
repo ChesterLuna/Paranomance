@@ -1,0 +1,117 @@
+
+
+#
+:<i>Mizuki is seated outside in the garden, her eyes shut in concentration. She takes deep breaths, fully immersed in her meditation. She then stands and suddenly opens her eyes.
+#Mizuki
+:Phew… Ha! Ha! HAAA! 
+#
+:<i>Mizuki quickly strikes and kicks the air with perfect precision.
+#Y/N
+:What’re you doing?
+#
+:<i>Mizuki jumps in surprise.
+#Mizuki
+:KU--！Oh, it’s just you. 
+#
+:<i>Mizuki sighs in exasperation.
+#Mizuki
+:Don’t sneak up on me like that.
+#Y/N
+:I didn’t though… Shouldn’t a samurai be more attentive to her surroundings?
+#
+:<i>Mizuki purses her lips and furrows her brows as she steps towards the flower garden.
+#Mizuki
+:It’s not as if a ghost can be killed. Anyways, you’ve interrupted my training.
+#Y/N
+:What are you even training for when you’re a ghost?
+#
+:<i>Mizuki scoffs coldly as her gaze pierces Y/N.
+#Mizuki
+:Training isn’t just about preparing for battle; it hones your body and mind with discipline. You must attune yourself to nature itself and become one with the skies, waters, and earth.
+
+
+[DECISION 1
+    CHOICE 1: That must be intense, I don’t know that I could do it. () -1
+    CHOICE 2: Interesting, maybe I could try to train with you sometime. () +1
+
+1#Mizuki
+1:Well, if you never try, you’d never know now would you?
+
+2#Mizuki
+2: Feel free to join, I’ve trained many a soldier back in the army.
+
+]
+
+#
+:<i>Mizuki gazes at the various flowers, examining the various types populating your garden.
+#Mizuki
+:I must say though, your garden is quite beautiful.
+#Y/N
+:Thanks, I cultivated them all myself!
+#
+:<i>Mizuki nods in acknowledgment.
+#Mizuki
+:It’s admirable. To nurture life requires its own type of discipline, different from that which I practice to take away lives…
+#Mizuki
+:When I was on the battlefield, during my breaks I’d often slip away to nearby flower fields to calm my mind. Although I haven’t seen most of the flowers you have here back in Japan…
+#
+:<i>Mizuki looks up at a tree as her eye is caught by vibrant pink flowers in full bloom.
+#Mizuki
+:Ah, sakura, how beautiful.
+#Y/N
+:We call these cherry blossoms here.
+#Mizuki
+:Cherry blossoms… Tell me, Y/N, do you know what cherry blossoms symbolize where I’m from?
+
+[DECISION 2
+    CHOICE 1: Joy and optimism? () -1
+    CHOICE 2: Life and death? () +1
+1#Mizuki
+1:<i>(in disappointment)</i> Perhaps to some extent, but that was not the answer I was looking for.
+
+2#Mizuki
+2:<i>(nods solemnly)</i> Correct.
+]
+
+#Mizuki
+:You must know how quickly sakura falls after blooming. They are often a metaphor for the fleeting lives of us samurai who followed the code of bushido: discipline, respect, virtue. We face death fearlessly… Much like my mentor, a true warrior to the very end.
+#
+:<i>Mizuki grits her teeth.
+#Mizuki
+:And yet, despite the prospects of certain death, still new samurai follow this path courageously, ensuring the neverending rebirth of the samurai’s honour.
+#Mizuki
+:Life and death; beauty and violence, such dichotomous concepts. Yet, my mentor taught me without one, the other ceases to exist.
+
+[DECISION 3:
+    CHOICE 1: Your mentor must have been very wise. () +1
+    CHOICE 2: Your mentor must have been very intrepid. () -1
+
+1#Mizuki
+1:Yes, though a warrior, he was wiser than any scholar out there.
+
+2#Mizuki
+2:I wouldn’t say that, he battled not seeking adventure but to uphold righteousness.
+]
+
+#Mizuki
+:I wonder if he has found peace and been reborn, like these beautiful blossoms… or perhaps he is roaming this Earth as an apparition as well…
+#Y/N
+:Perhaps that may be… it’s hard to tell. In any case, one end means a new beginning.
+#
+:<i>Y/N smiles and Mizuki averts her eyes. She then turns towards Y/N.
+#Mizuki
+:You know, there’s another meaning to sakura.
+#
+:<i>Y/N tilts their head curiously.
+#Y/N
+:And what might that be?
+#Mizuki
+:They say that in China, they are linked to women’s ability to weaponize their beauty and sexuality to dominate.
+#
+:<i>Y/N nods in understanding.
+#Y/N
+:Is that where you got the name, the Blooming Blade?
+#
+:<i>Mizuki nods firmly.
+#Mizuki
+:If those bastards are going to underestimate me, I might as well have taken advantage of it. Now if you’ll excuse me, I have to get back to my training.

@@ -1,0 +1,110 @@
+
+
+
+
+
+
+
+///////Pirate Bad
+
+@1 Pirate Sprite
+#Alomar
+:Guess this it, Y/N! I’ve learned so much in this time period. How amazing is it to travel so fast on land, to have all the books and knowledge of the world at your fingertips. 
+#Alomar
+:Truly, I wished I could have explored more. 
+#Y/N
+:I hope wherever you go, you get to meet with your crew again. 
+#Alomar
+:I do too! And I’ll tell them all about you! 
+#
+:<i>Alomar grabs Y/N’s hands. 
+#Alomar
+:Thanks for listening to me, Y/N! I hope I wasn’t too much of a bother!
+#Y/N
+:(sentimental) You really weren’t. I enjoyed your company. 
+#Alomar
+:That puts me at ease. 
+#
+:<i>Light rises from his feet, and he slowly becomes transparent. The sound of sparkles faintly hums as he disappears.
+#Alomar
+:It was a pleasure getting to know you. I’m glad I got to know you! 
+#
+:<i>Alomar gives Y/N a wink and a small wave before disappearing into the light, taking the sash with them. 
+
+
+///////Samurai Bad
+
+@2 Samurai Sprite
+#Mizuki
+:Y/N… I know our time was short but thank you for accompanying me in my last moments on this earth. I died with many regrets but… your presence has given me the gift of renewal. Perhaps now, I can pass on peacefully.
+#Y/N
+:I’m glad that I was able to provide some comfort to you. 
+#Mizuki
+:You did, I truly appreciated it.
+#
+:<i>Mizuki curls the corners of her mouth ever so slightly.
+#Mizuki
+:It was an honour to meet you, Y/N. It would be wonderful if we could meet again when your time comes.
+#Y/N
+:(sentimental) Without a doubt, I’ll come find you.
+#Mizuki
+:I look forward to it.
+#
+:<i>Light rises from her feet, and he slowly becomes transparent. The sound of sparkles faintly hums as she disappears.
+#Mizuki
+:May your light never be dimmed, in life or death. 
+#
+:<i>Mizuki gives Y/N a small bow before disappearing into the light, taking the sword with her. 
+
+///////Victorian Good
+
+@3 Victorian Sprite
+#Ollie
+:I know we only just met Y/N, but you made me realize so much… You showed me how to love again, when I thought I was hopeless. You made me feel as though I wasn’t alone during my loneliest times… I’ll always remember you. And perhaps I won’t feel as though I’ve left so much behind this time… You’ll keep my letters, right? 
+#
+:<i>Y/N blinks their eyes, trying to keep tears from escaping. 
+#Y/N
+:Yes Ollie. Of course I’ll keep them. 
+#Ollie
+:Good… Perhaps you can still mail them all out for me… Ah, right. I almost forgot. 
+#Ollie
+:Be sure to check under your pillow. I left one last special note, just for you. 
+#Y/N
+:Ollie… I have something for you too.
+#
+:<i>Y/N pulls a letter sealed with a kiss from their pocket, handing it to Ollie.
+#Y/N
+:I want you to take it with you… to remember me and our time together.
+#
+:<i>Ollie gives a sad smile. 
+#Ollie
+:Oh, Y/N. I’d never forget you. 
+#
+:<i>Light rises from their feet, and they slowly become transparent. The sound of sparkles faintly hums.
+#
+:<i>Ollie closes their eyes, bracing what’s to come, the locket clutched tightly in one hand, the letter in the other.
+#
+:<i>Y/N tilts their head, thinking that Ollie would be disappearing to the afterlife. But they become more human. A bright light blasts from their feet, blinding Y/N.
+#
+:<i>The bright light fades. Y/N feels the warmth of their skin and sees the light in their eyes. 
+#
+:<i>Ollie stares at their hands and touches their face, shocked. They slowly lift their hands to cup Y/N’s face. Their face fades from surprise to affinity.
+#Ollie
+:Is it over? Am I dead? Why are you still here?
+#
+:<i>Y/N Ollie! I think you’re human again!
+#Ollie
+:What? Wait!!
+#
+:<i>Ollie pats themselves down again, and a smile lights up their entire face, for the first time. They have a really cute smile, you think. You want to see it more often, and now you can.
+#Ollie
+:I am real! I believe it was my feelings for you that kept me here. You would have known that if you had read that letter I left for you… But now I can tell you myself! This is my second chance at love… Do you love me too?
+#
+:<i>A smolder in Ollie’s eyes follows this question.
+#Y/N
+:Of course I love you, Ollie!
+#
+:<i>Ollie comes in for a hug. This is the first time they’ve ever felt so warm. It’s a weird contrast to their usual somber coolness. You could get used to this. 
+#
+:<i>You hear the clink of the locket fall to the ground and fade away into sparkles. 
+

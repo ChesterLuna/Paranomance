@@ -60,6 +60,8 @@ public class GeneralButton : MonoBehaviour
             }
         }
 
+        GameSession.NightsLeft--;
+
         SceneManager.LoadScene(sceneToLoad);
         // else
         //     Debug.LogErrorFormat(sceneToLoad);

@@ -48,4 +48,9 @@ public class ButtonChoice : MonoBehaviour
         
     }
 
+    public void PlayOnClick(AudioClip clip)
+    {
+        GameObject.Find("LevelManager").GetComponent<AudioSource>().PlayOneShot(clip, 1f);
+    }
+
 }

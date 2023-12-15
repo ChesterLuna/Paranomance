@@ -548,6 +548,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5766998863800516545, guid: 7566d3729ad52524e931f5d29a1817b9, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 82d1885be74b546439a558535873115e, type: 3}
     - target: {fileID: 6829094419901335072, guid: 7566d3729ad52524e931f5d29a1817b9, type: 3}
       propertyPath: charNameText
       value: 
@@ -665,6 +669,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1881887671260156036, guid: c6248e2af116b20438cbb91782087132, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5653902960839368289, guid: c6248e2af116b20438cbb91782087132, type: 3}
       propertyPath: m_Name
       value: Menu Canvas
@@ -688,7 +696,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1058404198436110301, guid: 3c34b1d0cdf49a648b8c97b39f8aee77, type: 3}
       propertyPath: m_text
-      value: "You might end up breaking something. You should get out from there\u2026"
+      value: "I\u2019m glad you\u2019re enjoying yourself. Can I join you?"
       objectReference: {fileID: 0}
     - target: {fileID: 2552898806893055487, guid: 3c34b1d0cdf49a648b8c97b39f8aee77, type: 3}
       propertyPath: attractionPoints

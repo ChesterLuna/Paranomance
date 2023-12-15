@@ -335,6 +335,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a7973252726b2443b4c167aee326c7a, type: 3}
+--- !u!1 &999771134 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 642062675552986435, guid: 4a7973252726b2443b4c167aee326c7a, type: 3}
+  m_PrefabInstance: {fileID: 999771133}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1082711361
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -545,6 +550,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6829094419901335072, guid: 7566d3729ad52524e931f5d29a1817b9, type: 3}
+      propertyPath: fader
+      value: 
+      objectReference: {fileID: 999771134}
+    - target: {fileID: 6829094419901335072, guid: 7566d3729ad52524e931f5d29a1817b9, type: 3}
       propertyPath: charNameText
       value: 
       objectReference: {fileID: 1179756265}
@@ -678,6 +687,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1058404198436110301, guid: 3c34b1d0cdf49a648b8c97b39f8aee77, type: 3}
+      propertyPath: m_text
+      value: "<i>(amused)</i> It\u2019s a car."
+      objectReference: {fileID: 0}
+    - target: {fileID: 2875312396173170106, guid: 3c34b1d0cdf49a648b8c97b39f8aee77, type: 3}
+      propertyPath: m_text
+      value: '<i>(baffled)</i> First of all, get down from there!
+
+
+'
+      objectReference: {fileID: 0}
     - target: {fileID: 3005156684881695497, guid: 3c34b1d0cdf49a648b8c97b39f8aee77, type: 3}
       propertyPath: m_Pivot.x
       value: 0

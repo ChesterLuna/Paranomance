@@ -11,6 +11,7 @@ public class GameSession : MonoBehaviour
     // static public Dictionary<string, bool> Samurai_Choices = new Dictionary<string, bool>();
     // // Ex: Pirate_Choices["First_Event_Success"] = true
     [SerializeField] static public Dictionary<string, bool> Global_Choices = new Dictionary<string, bool>();
+    //[SerializeField] int startNights
     // [SerializeField] static public Dictionary<string, int> Global_Points = new Dictionary<string, int>();
 
     static public int Pirate_Attraction;
@@ -35,8 +36,8 @@ public class GameSession : MonoBehaviour
             Global_Choices["S_Garden"] = false;
             Global_Choices["S_Kitchen"] = false;
             Global_Choices["S_Roof"] = false;
-            Global_Choices["V_Study"] = false;
-            Global_Choices["V_Storage_Room"] = false;
+            Global_Choices["V_Attic"] = false;
+            Global_Choices["V_Library"] = false;
             Global_Choices["V_Bathroom"] = false;
 
         }

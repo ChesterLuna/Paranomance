@@ -7,7 +7,7 @@
 #
 :<i>Y/N had a feeling that Alomar harboured some sort of fear of water, but they didn’t know it was this severe. 
 #Y/N
-:(playful) Oh? That’s not something you see every day. 
+:<i>(playful)</i> Oh? That’s not something you see every day. 
 #Alomar
 :Oh, it’s you, Y/N. 
 #Y/N
@@ -77,7 +77,7 @@ Choice 2: Haven’t really got into it yet. (+1)
 #Alomar
 :You were doing your research work, weren’t you? I’ll leave you to it. I’m okay with being left alone here. 
 #
-:Y/N hums and stands from the side of the pool. She puts her hands on her hips and takes a breath in. 
+:Y/N hums and stands from the side of the pool. They put their hands on their hips and take a breath in. 
 [DECISION 3
 	Choice 1: Y/N jumps into the pool. (+1)
 	Choice 2: Y/N goes back to their research. (-1)
@@ -87,7 +87,7 @@ Choice 2: Haven’t really got into it yet. (+1)
 1#Y/N
 1:The water is cool!
 1#Alomar
-1:(cheeky) You’re crazy! In formal wear?! 
+1:<i>(cheeky)</i> You’re crazy! In formal wear?! 
 1#Y/N
 1:The water isn’t so bad, Alomar, see?
 1#

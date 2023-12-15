@@ -563,7 +563,7 @@ PrefabInstance:
     - target: {fileID: 6931805507894166927, guid: 7566d3729ad52524e931f5d29a1817b9, type: 3}
       propertyPath: AssetText
       value: 
-      objectReference: {fileID: 4900000, guid: 45207dc849a31c64cb01ff00adc5abc3, type: 3}
+      objectReference: {fileID: 4900000, guid: 1b41d5019e55f5348a6b16366392d863, type: 3}
     - target: {fileID: 8194074403984942807, guid: 7566d3729ad52524e931f5d29a1817b9, type: 3}
       propertyPath: portraitStand
       value: 
