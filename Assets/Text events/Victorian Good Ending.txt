@@ -36,7 +36,9 @@
 
 @2 Samurai Sprite
 #Mizuki
-:Y/N… I know our time was short but thank you for accompanying me in my last moments on this earth. I died with many regrets but… your presence has given me the gift of renewal. Perhaps now, I can pass on peacefully.
+:Y/N… I know our time was short but thank you for accompanying me in my last moments on this earth.
+#Mizuki
+:I died with many regrets but… your presence has given me the gift of renewal. Perhaps now, I can pass on peacefully.
 #Y/N
 :I’m glad that I was able to provide some comfort to you. 
 #Mizuki
@@ -60,7 +62,13 @@
 
 @3 Victorian Sprite
 #Ollie
-:I know we only just met Y/N, but you made me realize so much… You showed me how to love again, when I thought I was hopeless. You made me feel as though I wasn’t alone during my loneliest times… I’ll always remember you. And perhaps I won’t feel as though I’ve left so much behind this time… You’ll keep my letters, right? 
+:I know we only just met Y/N, but you made me realize so much… You showed me how to love again, when I thought I was hopeless.
+#Ollie
+:You made me feel as though I wasn’t alone during my loneliest times… I’ll always remember you.
+#Ollie
+:And perhaps I won’t feel as though I’ve left so much behind this time…
+#Ollie
+:You’ll keep my letters, right? 
 #
 :<i>Y/N blinks their eyes, trying to keep tears from escaping. 
 #Y/N
@@ -98,7 +106,11 @@
 #
 :<i>Ollie pats themselves down again, and a smile lights up their entire face, for the first time. They have a really cute smile, you think. You want to see it more often, and now you can.
 #Ollie
-:I am real! I believe it was my feelings for you that kept me here. You would have known that if you had read that letter I left for you… But now I can tell you myself! This is my second chance at love… Do you love me too?
+:I am real! I believe it was my feelings for you that kept me here. You would have known that if you had read that letter I left for you…
+#Ollie
+:But now I can tell you myself! This is my second chance at love…
+#Ollie
+:Do you love me too?
 #
 :<i>A smolder in Ollie’s eyes follows this question.
 #Y/N

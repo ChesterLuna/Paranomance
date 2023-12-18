@@ -44,5 +44,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c792aca0bb532a4e89243fbd008bb2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  score: 0
+  Pirate_Attraction: 0
+  Victorian_Attraction: 0
+  Samurai_Attraction: 0
+  NightsLeft: 0
+  NameOfProtagonist: DEBUG
   gameSpeed: 1
+  prefabInput: {fileID: 1539965983008114922, guid: 7b1a0d1b43a4b8246ac823c02a38776f, type: 3}

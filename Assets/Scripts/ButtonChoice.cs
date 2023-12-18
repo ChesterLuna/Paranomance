@@ -29,11 +29,11 @@ public class ButtonChoice : MonoBehaviour
     private void AddToTotal()
     {
         if (characterAttracted == "Pirate" || characterAttracted == "Alomar")
-            GameSession.Pirate_Attraction += attractionPoints;
+            GameSession.Instance.Pirate_Attraction += attractionPoints;
         if (characterAttracted == "Victorian" || characterAttracted == "Ollie")
-            GameSession.Victorian_Attraction += attractionPoints;
+            GameSession.Instance.Victorian_Attraction += attractionPoints;
         if (characterAttracted == "Samurai" || characterAttracted == "Mizuki")
-            GameSession.Samurai_Attraction += attractionPoints;
+            GameSession.Instance.Samurai_Attraction += attractionPoints;
 
         for(int i = 0; i < choicesDone.Length; i++)
         {
@@ -42,7 +42,7 @@ public class ButtonChoice : MonoBehaviour
                 Debug.Log("Empty Choice");
                 continue;
             }
-            GameSession.Global_Choices[choicesDone[i]] = true;
+            GameSession.Instance.Global_Choices[choicesDone[i]] = true;
         }
         
         

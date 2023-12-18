@@ -22,9 +22,9 @@
     CHOICE 2: No. (-1)
 
 1#
-:Y/N takes a few steps towards the noise, rounding a large bookcase.
+1:Y/N takes a few steps towards the noise, rounding a large bookcase.
 2#
-:Y/N chooses to stay in place. You figure it's best to leave it alone.
+2:Y/N chooses to stay in place. You figure it's best to leave it alone.
 ]
 
 #
@@ -44,7 +44,9 @@
 #
 :<i>Ollie starts backing up from the direction they came. Arms defensively in front of them. 
 #
-:<i>Y/N quizically follows Ollie, reaching a desk with things sprawled all across it. You see a candle lighting the space. Romantic, you think. A feather quill, ink and a piece of paper lie on the desk.
+:<i>Y/N quizically follows Ollie, reaching a desk with things sprawled all across it. You see a candle lighting the space.
+#
+:<i>Romantic, you think. A feather quill, ink and a piece of paper lie on the desk.
 #Y/N
 :Are you writing something? 
 #
@@ -83,7 +85,7 @@
 1#Ollie
 1:No! Not yet. I haven’t even had it sent out to you yet.
 2#
-:Ollie's shoulders slump in defeat as they clutch the letter to their chest.
+2:Ollie's shoulders slump in defeat as they clutch the letter to their chest.
 ]
 #Ollie
 :Well, this wasn’t ready for you anyway. 

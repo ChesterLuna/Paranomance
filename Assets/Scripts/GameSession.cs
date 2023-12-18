@@ -5,40 +5,52 @@ using UnityEngine;
 public class GameSession : MonoBehaviour
 {
     // Configuration parameters
+    public static GameSession Instance;
 
-    // static public Dictionary<string, bool> Pirate_Choices = new Dictionary<string, bool>();
-    // static public Dictionary<string, bool> Victorian_Choices = new Dictionary<string, bool>();
-    // static public Dictionary<string, bool> Samurai_Choices = new Dictionary<string, bool>();
-    // // Ex: Pirate_Choices["First_Event_Success"] = true
-    [SerializeField] static public Dictionary<string, bool> Global_Choices = new Dictionary<string, bool>();
-    //[SerializeField] int startNights
-    // [SerializeField] static public Dictionary<string, int> Global_Points = new Dictionary<string, int>();
+    // [SerializeField] static public Dictionary<string, bool> Global_Choices = new Dictionary<string, bool>();
 
-    static public int Pirate_Attraction;
-    static public int Victorian_Attraction;
-    static public int Samurai_Attraction;
+    // static public int Pirate_Attraction;
+    // static public int Victorian_Attraction;
+    // static public int Samurai_Attraction;
 
-    static public int NightsLeft;
+    // static public int NightsLeft;
+
+    // static public string NameOfProtagonist = "Danielle";
+
+    //public string debugTest= "funciono";
+
+
+
+    [SerializeField] public Dictionary<string, bool> Global_Choices = new Dictionary<string, bool>();
+
+    public int Pirate_Attraction;
+    public int Victorian_Attraction;
+    public int Samurai_Attraction;
+
+    public int NightsLeft;
+
+    public string NameOfProtagonist = "Danielle";
 
 
     [Range(0.1f, 5f)] [SerializeField] float gameSpeed = 1f;
 
+    [SerializeField] GameObject prefabInput;
+
     private void Awake()
     {
         SetUpSingleton();
-
-        if(!GameSession.Global_Choices.ContainsKey("P_Garage"))
+        if (!GameSession.Instance.Global_Choices.ContainsKey("P_Garage"))
         {
-            NightsLeft = 7;
-            Global_Choices["P_Garage"] = false;
-            Global_Choices["P_Common_Room"] = false;
-            Global_Choices["P_Pool"] = false;
-            Global_Choices["S_Garden"] = false;
-            Global_Choices["S_Kitchen"] = false;
-            Global_Choices["S_Roof"] = false;
-            Global_Choices["V_Attic"] = false;
-            Global_Choices["V_Library"] = false;
-            Global_Choices["V_Bathroom"] = false;
+            GameSession.Instance.NightsLeft = 7;
+            GameSession.Instance.Global_Choices["P_Garage"] = false;
+            GameSession.Instance.Global_Choices["P_Common_Room"] = false;
+            GameSession.Instance.Global_Choices["P_Pool"] = false;
+            GameSession.Instance.Global_Choices["S_Garden"] = false;
+            GameSession.Instance.Global_Choices["S_Kitchen"] = false;
+            GameSession.Instance.Global_Choices["S_Roof"] = false;
+            GameSession.Instance.Global_Choices["V_Attic"] = false;
+            GameSession.Instance.Global_Choices["V_Library"] = false;
+            GameSession.Instance.Global_Choices["V_Bathroom"] = false;
 
         }
 
@@ -46,25 +58,44 @@ public class GameSession : MonoBehaviour
 
     private void Start()
     {
-        Pirate_Attraction = 0;
-        Victorian_Attraction = 0;
-        Samurai_Attraction = 0;
+        GameSession.Instance.Pirate_Attraction = 0;
+        GameSession.Instance.Victorian_Attraction = 0;
+        GameSession.Instance.Samurai_Attraction = 0;
+        
+        if(NameOfProtagonist == "DEBUG")
+        {
+            Instantiate(prefabInput);
+        }
+
+        // CHOOSE YOUR NAME
 
     }
     private void SetUpSingleton()
     {
-        int numberGameSessions = FindObjectsOfType<GameSession>().Length;
 
-        if (numberGameSessions > 1)
+        if (Instance != null && Instance != this)
         {
-            Destroy(gameObject);
-
+            Destroy(this);
         }
         else
         {
             DontDestroyOnLoad(gameObject);
-
+            Instance = this;
         }
+
+
+        // int numberGameSessions = FindObjectsOfType<GameSession>().Length;
+
+        // if (numberGameSessions > 1)
+        // {
+        //     Destroy(gameObject);
+
+        // }
+        // else
+        // {
+        //     DontDestroyOnLoad(gameObject);
+
+        // }
 
     }
 
@@ -81,9 +112,9 @@ public class GameSession : MonoBehaviour
     //     if (character == "Pirate" || character == "Alomar")
     //         return Pirate_Attraction;
     //     if (character == "Victorian" || character == "Ollie")
-    //         GameSession.Victorian_Attraction += attractionPoints;
+    //         GameSession.Instance.Victorian_Attraction += attractionPoints;
     //     if (character == "Samurai" || character == "XXX")
-    //         GameSession.Samurai_Attraction += attractionPoints;
+    //         GameSession.Instance.Samurai_Attraction += attractionPoints;
 
     // }
 
@@ -94,6 +125,8 @@ public class GameSession : MonoBehaviour
 
     public void resetGame()
     {
+        GameSession.Instance = null;
+
         Destroy(gameObject);
     }
 }

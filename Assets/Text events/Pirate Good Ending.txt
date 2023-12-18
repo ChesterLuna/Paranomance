@@ -2,7 +2,9 @@
 
 @2 Samurai Sprite
 #Mizuki
-:Y/N… I know our time was short but thank you for accompanying me in my last moments on this earth. I died with many regrets but… your presence has given me the gift of renewal. Perhaps now, I can pass on peacefully.
+:Y/N… I know our time was short but thank you for accompanying me in my last moments on this earth.
+#Mizuki
+:I died with many regrets but… your presence has given me the gift of renewal. Perhaps now, I can pass on peacefully.
 #Y/N
 :I’m glad that I was able to provide some comfort to you. 
 #Mizuki
@@ -26,7 +28,11 @@
 
 @3 Victorian Sprite
 #Ollie
-:I know we only just met Y/N, but you made me realize so much… You showed me how to love again, when I thought I was hopeless. You made me feel as though I wasn’t alone during my loneliest times… I’ll always remember you. And perhaps I won’t feel as though I’ve left so much behind this time… You’ll keep my letters, right? 
+:I know we only just met Y/N, but you made me realize so much… You showed me how to love again, when I thought I was hopeless.
+#Ollie
+:You made me feel as though I wasn’t alone during my loneliest times… I’ll always remember you.
+#Ollie
+:And perhaps I won’t feel as though I’ve left so much behind this time… You’ll keep my letters, right? 
 #
 :<i>Y/N blinks their eyes, trying to keep tears from escaping. 
 #Y/N

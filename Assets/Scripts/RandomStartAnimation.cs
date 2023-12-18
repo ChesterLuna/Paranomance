@@ -17,7 +17,6 @@ public class RandomStartAnimation : MonoBehaviour
         GetComponent<Animation>().Play();
         if(Random.Range(0,2) == 1)
         {
-            Debug.Log("Aqui");
             transform.parent.GetComponent<RectTransform>().localScale = new Vector2(-1,1);
 
         }

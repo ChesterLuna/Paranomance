@@ -1,6 +1,8 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
+
 //using Microsoft.Unity.VisualStudio.Editor;
 using TMPro;
 using Unity.VisualScripting;
@@ -27,12 +29,22 @@ public class DialogueManager : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
+
         attractionAttained = 0;
     }
 
     private void Start()
     {
-        if(choiceCanvas == null)
+        // if (GameObject.Find("LevelManager") != null)
+        // {
+        //     AudioMixer mixer = GameObject.Find("LevelManager").GetComponent<AudioSource>().outputAudioMixerGroup.audioMixer;
+        //     float lastVol = GameObject.Find("LevelManager").GetComponent<AudioSource>().volume;
+        //     //GameObject.Find("LevelManager").GetComponent<AudioSource>().volume = 0;
+        //     print(lastVol);
+        //     StartCoroutine(FadeMixerGroup.StartFade(mixer, "vol1", 0.5f, 1f));
+        // }
+
+        if (choiceCanvas == null)
         {
             if(GameObject.Find("Choice Canvas") != null)
             {
@@ -53,51 +65,59 @@ public class DialogueManager : MonoBehaviour
 
     public void StartDialogue()
     {
-        //names.Clear();
-        //dialogues.Clear();
 
-        // foreach (string sentence in dialogue.sentences)
-        // {
-        //     dialogues.Enqueue(sentence);
-        // }
+        if (finishedDialogue == false)
+        {
+            Debug.Log("Start Dialogue");
 
-        // foreach (string name in dialogue.nameDisplays)
-        // {
-        //     names.Enqueue(name);
-        // }
-
-        DisplayNextSentence();
+            DisplayNextSentence();
+        }
     }
 
     public void DisplayNextSentence()
     {
-        //Debug.Log("Enqueue");
-        if(dialogues.Count == 0 && finishedDialogue == false)
+        if(finishedDialogue == true)
+        {
+            return;
+        }
+        if (dialogues.Count == 0 )
         {
             EndDialogue();
             return;
         }
+
         string nextName = names.Dequeue();
         string nextSentence = dialogues.Dequeue();
 
-        //Debug.Log(nextName);
-        if(nextName[0] == '@')
+
+        while(true)
         {
-            FindObjectOfType<PictureHandler>().UpdatePortrait((int)Char.GetNumericValue(nextName[1]));
-            nextName = names.Dequeue();
+            if (nextName[0] == '@')
+            {
+                FindObjectOfType<PictureHandler>().UpdatePortrait((int)Char.GetNumericValue(nextName[1]));
+                nextName = names.Dequeue();
+                continue;
+            }
+            if (nextName == "Animation")
+            {
+                DisplayNextAnimation();
+                nextName = names.Dequeue();
+
+                continue;
+            }
+            break;
         }
         if (nextName == "Choice")
         {
             DisplayNextChoice();
             return;
         }
-        if (nextName == "Animation")
-        {
-            DisplayNextAnimation();
-            nextName = names.Dequeue();
 
-            return;
-        }
+        // nextName = ChangeName(nextName);
+        // nextSentence = ChangeName(nextSentence);
+        nextName = nextName.Replace("Y/N", GameSession.Instance.NameOfProtagonist);
+        nextSentence = nextSentence.Replace("Y/N", GameSession.Instance.NameOfProtagonist);
+
 
         charNameText.text = nextName;
         dialogueText.text = nextSentence;
@@ -143,16 +163,16 @@ public class DialogueManager : MonoBehaviour
 
         if (attractionAttained >= 2)
         {
-            GameSession.Global_Choices[neutralNameScene + "_Positive"] = true;
+            GameSession.Instance.Global_Choices[neutralNameScene + "_Positive"] = true;
             Debug.Log(neutralNameScene + "_Positive");
         }
         else
         {
-            GameSession.Global_Choices[neutralNameScene + "_Negative"] = true;
+            GameSession.Instance.Global_Choices[neutralNameScene + "_Negative"] = true;
             Debug.Log(neutralNameScene + "_Negative");
         }
 
-        GameSession.Global_Choices[neutralNameScene] = true;
+        GameSession.Instance.Global_Choices[neutralNameScene] = true;
 
 
         finishedDialogue = true;
@@ -160,14 +180,12 @@ public class DialogueManager : MonoBehaviour
         if(GameObject.Find("LevelManager") != null)
         {
             AudioMixer mixer = GameObject.Find("LevelManager").GetComponent<AudioSource>().outputAudioMixerGroup.audioMixer;
-            StartCoroutine(FadeMixerGroup.StartFade(mixer, "vol1", 1f, 0f));
-
+            //StartCoroutine(FadeMixerGroup.StartFade(mixer, "vol1", 1f, 0f));
+            StartCoroutine(StartFadeOut(fader, 1f, 1f));
         }
 
-        StartCoroutine(StartFadeOut(fader, 1f, 1f));
 
 
-        // LoadSceneAfterDialogue(neutralNameScene);
 
         if (neutralNameScene == "P_Ending" || neutralNameScene == "S_Ending" || neutralNameScene == "V_Ending" || neutralNameScene == "Neutral_Ending")
         {
@@ -198,9 +216,11 @@ public class DialogueManager : MonoBehaviour
 
 
     private void LoadMainMenu()
-    {
-        Destroy(GameObject.Find("GameSession"));
+    {        
+        GameSession.Instance.resetGame();
+        GameSession.Instance = null;
         SceneManager.LoadScene("Main Menu");
+
     }
     private void LoadHouseMap()
     {

@@ -4,6 +4,8 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using CI.QuickSave;
+
 //using UnityEngine.UI;
 
 public class GeneralButton : MonoBehaviour
@@ -19,11 +21,11 @@ public class GeneralButton : MonoBehaviour
             int index = handler.PirateEvents.FindIndex(a => a.Contains(sceneToLoad));
             if (index != 0)
             {
-                if (GameSession.Global_Choices.ContainsKey(handler.PirateEvents[index - 1] + "_Positive"))
+                if (GameSession.Instance.Global_Choices.ContainsKey(handler.PirateEvents[index - 1] + "_Positive"))
                 {
                     sceneToLoad = sceneToLoad + "_Positive";
                 }
-                else if (GameSession.Global_Choices.ContainsKey(handler.PirateEvents[index - 1] + "_Negative"))
+                else if (GameSession.Instance.Global_Choices.ContainsKey(handler.PirateEvents[index - 1] + "_Negative"))
                 {
                     sceneToLoad = sceneToLoad + "_Negative";
                 }
@@ -34,11 +36,11 @@ public class GeneralButton : MonoBehaviour
             int index = handler.SamuraiEvents.FindIndex(a => a.Contains(sceneToLoad));
             if (index != 0)
             {
-                if (GameSession.Global_Choices.ContainsKey(handler.SamuraiEvents[index - 1] + "_Positive"))
+                if (GameSession.Instance.Global_Choices.ContainsKey(handler.SamuraiEvents[index - 1] + "_Positive"))
                 {
                     sceneToLoad = sceneToLoad + "_Positive";
                 }
-                else if (GameSession.Global_Choices.ContainsKey(handler.SamuraiEvents[index - 1] + "_Negative"))
+                else if (GameSession.Instance.Global_Choices.ContainsKey(handler.SamuraiEvents[index - 1] + "_Negative"))
                 {
                     sceneToLoad = sceneToLoad + "_Negative";
                 }
@@ -49,18 +51,20 @@ public class GeneralButton : MonoBehaviour
             int index = handler.VictorianEvents.FindIndex(a => a.Contains(sceneToLoad));
             if (index != 0)
             {
-                if (GameSession.Global_Choices.ContainsKey(handler.VictorianEvents[index - 1] + "_Positive"))
+                if (GameSession.Instance.Global_Choices.ContainsKey(handler.VictorianEvents[index - 1] + "_Positive"))
                 {
                     sceneToLoad = sceneToLoad + "_Positive";
                 }
-                else if (GameSession.Global_Choices.ContainsKey(handler.VictorianEvents[index - 1] + "_Negative"))
+                else if (GameSession.Instance.Global_Choices.ContainsKey(handler.VictorianEvents[index - 1] + "_Negative"))
                 {
                     sceneToLoad = sceneToLoad + "_Negative";
                 }
             }
         }
 
-        GameSession.NightsLeft--;
+        if(SceneManager.GetActiveScene().name == "House Map")
+            GameSession.Instance.NightsLeft--;
+
 
         SceneManager.LoadScene(sceneToLoad);
         // else
@@ -77,41 +81,41 @@ public class GeneralButton : MonoBehaviour
 
         // || 
         
-        if (GameSession.Global_Choices["P_Pool"] == true && GameSession.Pirate_Attraction >= 5)
+        if (GameSession.Instance.Global_Choices["P_Pool"] == true && GameSession.Instance.Pirate_Attraction >= 5)
         {
-            if(GameSession.Pirate_Attraction > maxAttraction)
+            if(GameSession.Instance.Pirate_Attraction > maxAttraction)
             {
-                maxAttraction = GameSession.Pirate_Attraction;
+                maxAttraction = GameSession.Instance.Pirate_Attraction;
                 possibleEndings.Clear();
                 possibleEndings.Add("P");
             }
-            else if(GameSession.Pirate_Attraction == maxAttraction)
+            else if(GameSession.Instance.Pirate_Attraction == maxAttraction)
             {
                 possibleEndings.Add("P");
             }
         }
-        if (GameSession.Global_Choices["S_Roof"] == true && GameSession.Samurai_Attraction >= 5)
+        if (GameSession.Instance.Global_Choices["S_Roof"] == true && GameSession.Instance.Samurai_Attraction >= 5)
         {
-            if (GameSession.Samurai_Attraction > maxAttraction)
+            if (GameSession.Instance.Samurai_Attraction > maxAttraction)
             {
-                maxAttraction = GameSession.Samurai_Attraction;
+                maxAttraction = GameSession.Instance.Samurai_Attraction;
                 possibleEndings.Clear();
                 possibleEndings.Add("S");
             }
-            else if (GameSession.Samurai_Attraction == maxAttraction)
+            else if (GameSession.Instance.Samurai_Attraction == maxAttraction)
             {
                 possibleEndings.Add("S");
             }
         }
-        if (GameSession.Global_Choices["V_Bathroom"] == true && GameSession.Victorian_Attraction >= 5)
+        if (GameSession.Instance.Global_Choices["V_Bathroom"] == true && GameSession.Instance.Victorian_Attraction >= 5)
         {
-            if (GameSession.Victorian_Attraction > maxAttraction)
+            if (GameSession.Instance.Victorian_Attraction > maxAttraction)
             {
-                maxAttraction = GameSession.Victorian_Attraction;
+                maxAttraction = GameSession.Instance.Victorian_Attraction;
                 possibleEndings.Clear();
                 possibleEndings.Add("V");
             }
-            else if (GameSession.Victorian_Attraction == maxAttraction)
+            else if (GameSession.Instance.Victorian_Attraction == maxAttraction)
             {
                 possibleEndings.Add("V");
             }
@@ -134,6 +138,45 @@ public class GeneralButton : MonoBehaviour
         theCanvas.Find("Menu HUD").GameObject().SetActive(display);
         theCanvas.Find("Open Menu").GameObject().SetActive(!display);
     }
+
+    // public void SaveGame()
+    // {
+    //     var writer = QuickSaveWriter.Create("Quick");
+    //     writer.Write("LastScene", SceneManager.GetActiveScene().name);
+
+    //     writer.Write("Session", GameSession.Instance);
+    //     writer.Write("NameQueue", FindObjectOfType<DialogueManager>().names);
+    //     writer.Write("DialogueQueue", FindObjectOfType<DialogueManager>().dialogues);
+    //     writer.Commit();
+    // }
+
+    // public void LoadGame()
+    // {
+
+    //     // Here we read the data we saved in the section above
+    //     var reader = QuickSaveReader.Create("Quick");
+    //     SceneManager.LoadScene(reader.Read<string>("LastScene"));
+
+    //     //DELETE GAME OBJECT FROM THE NEW SCENE
+    //     GameObject.FindObjectOfType<GameSession>().resetGame();
+    //     //CREATE A NEW GAME SESSION
+    //     Instantiate(reader.Read<GameSession>("Session"));
+
+    //     //GameSession.Instance
+    //     FindObjectOfType<DialogueManager>().names = reader.Read<Queue<string>>("NameQueue");
+    //     FindObjectOfType<DialogueManager>().dialogues = reader.Read<Queue<string>>("DialogueQueue");
+
+    // }
+
+
+    public void LoadMainMenu()
+    {
+        GameSession.Instance.resetGame();
+        GameSession.Instance = null;
+        SceneManager.LoadScene("Main Menu");
+
+    }
+
 
     public void QuitGame()
     {

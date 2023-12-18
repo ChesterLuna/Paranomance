@@ -550,7 +550,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5766998863800516545, guid: 7566d3729ad52524e931f5d29a1817b9, type: 3}
       propertyPath: m_Volume
-      value: 0.065
+      value: 0.65
       objectReference: {fileID: 0}
     - target: {fileID: 5766998863800516545, guid: 7566d3729ad52524e931f5d29a1817b9, type: 3}
       propertyPath: m_audioClip
@@ -696,7 +696,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1058404198436110301, guid: 3c34b1d0cdf49a648b8c97b39f8aee77, type: 3}
       propertyPath: m_text
-      value: Hm, how about we lift the mood with a meal?
+      value: Drawing blood? I take it you were a samurai?
       objectReference: {fileID: 0}
     - target: {fileID: 2552898806893055487, guid: 3c34b1d0cdf49a648b8c97b39f8aee77, type: 3}
       propertyPath: attractionPoints

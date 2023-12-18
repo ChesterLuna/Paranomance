@@ -47,7 +47,11 @@
 ]
 
 #Mizuki
-:I was one of the most fearsome warriors amongst my squadron. They called me the Blooming Blade, you know. Of course, being a woman, you have to fight for your place and prove yourself; weakness is unacceptable. Otherwise, I’d never have been respected, just like before I turned to the way of the blade…
+:I was one of the most fearsome warriors amongst my squadron. They called me the Blooming Blade, you know.
+#Mizuki
+:Of course, being a woman, you have to fight for your place and prove yourself; weakness is unacceptable.
+#Mizuki
+:Otherwise, I’d never have been respected, just like before I turned to the way of the blade…
 #
 :<i>Y/N cleaning up the mess. 
 #Y/N

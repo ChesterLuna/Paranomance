@@ -11,7 +11,7 @@
 #
 :<i>Mizuki jumps in surprise.
 #Mizuki
-:KU--！Oh, it’s just you. 
+:KU--! Oh, it’s just you. 
 #
 :<i>Mizuki sighs in relief.
 #Mizuki
@@ -75,11 +75,15 @@
 ]
 
 #Mizuki
-:You must know how quickly sakura falls after blooming. They are often a metaphor for the fleeting lives of us samurai who followed the code of bushido: discipline, respect, virtue. We face death fearlessly… Much like my mentor, a true warrior to the very end.
+:You must know how quickly sakura falls after blooming. They are often a metaphor for the fleeting lives of us samurai who followed the code of bushido: discipline, respect, virtue.
+#Mizuki
+:We face death fearlessly… Much like my mentor, a true warrior to the very end.
 #
 :<i>Mizuki smiles melancholically.
 #Mizuki
-:And yet, despite the prospects of certain death, still new samurai follow this path courageously, ensuring the neverending rebirth of the samurai’s honour. Life and death; beauty and violence, such dichotomous concepts. Yet, my mentor taught me without one, the other ceases to exist.
+:And yet, despite the prospects of certain death, still new samurai follow this path courageously, ensuring the neverending rebirth of the samurai’s honour.
+#Mizuki
+:Life and death; beauty and violence, such dichotomous concepts. Yet, my mentor taught me without one, the other ceases to exist.
 
 [DECISION 3:
     CHOICE 1: Your mentor must have been very wise. () +1

@@ -326,6 +326,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 5242aa74bca5f014d87339f5a94ce437, type: 3}
+    - target: {fileID: 6947583015004452794, guid: 4a7973252726b2443b4c167aee326c7a, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 4.9100037
+      objectReference: {fileID: 0}
     - target: {fileID: 7018798762093713389, guid: 4a7973252726b2443b4c167aee326c7a, type: 3}
       propertyPath: m_Name
       value: Conv Canvas
@@ -696,7 +700,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1058404198436110301, guid: 3c34b1d0cdf49a648b8c97b39f8aee77, type: 3}
       propertyPath: m_text
-      value: No.
+      value: Don't explore the sound.
       objectReference: {fileID: 0}
     - target: {fileID: 2552898806893055487, guid: 3c34b1d0cdf49a648b8c97b39f8aee77, type: 3}
       propertyPath: attractionPoints
@@ -708,7 +712,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2875312396173170106, guid: 3c34b1d0cdf49a648b8c97b39f8aee77, type: 3}
       propertyPath: m_text
-      value: Yes.
+      value: Explore the sound.
       objectReference: {fileID: 0}
     - target: {fileID: 3005156684881695497, guid: 3c34b1d0cdf49a648b8c97b39f8aee77, type: 3}
       propertyPath: m_Pivot.x

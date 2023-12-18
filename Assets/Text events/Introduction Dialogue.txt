@@ -20,7 +20,7 @@
 #
 :<i>Y/N drives to Illwill<i><sup>tm</sup></i> searching for trinkets to fill their new house. They go through each section skimming for something that looks expensive.
 #
-:<i>After a couple of minutes of Y/N going around the aisles they find something that catches their eye…
+:<i>After a couple of minutes of Y/N going around the aisles, they find something that catches their eye…
 
 #Y/N
 :WHAT?! This is a sash from the early 1700s, it probably belonged to a pirate!
@@ -47,33 +47,33 @@
 :I can just chill and exhibit them in my new mansion!
 
 #
-:<i>At that moment, Y/N tripped with the rug and dropped the cardboard box with all the objects to the floor. They all fell in front of him. 
+:<i>At that moment, Y/N trips on the rug and drops the cardboard box with all the objects on the floor. They all fell in front of them. 
 #Y/N
 :Nooooooooooooooooooooooooo!
 
 #
-:<i>The locket broke and all the pieces scattered to the ground. The samurai sword broke even more. And the sash gracefully hovered to the ground…
+:<i>The locket breaks and all the pieces scatter to the ground. The samurai sword breaks even more. And the sash gracefully hovers to the ground…
 
 #
-:<i>Until a chandelier fell and lit up the sash in flames.
+:<i>Until a chandelier falls and lights up the sash in flames.
 $ Animation Blinking Blue
 #
-:<i>Y/N was lamenting themselves for losing such valuable artifacts when suddenly… Three blue figures appeared in front of Y/N, coming from inside the objects.
+:<i>Y/N laments to themselves for destroying such valuable artifacts when suddenly… Three blue figures appear in front of Y/N, coming from inside the objects.
 #
-:<i>Slowly the blue tint faded away and Y/N was left in a room with three peculiarly dressed characters.
+:<i>Slowly the blue tint fades away and Y/N is left in a room with three peculiarly dressed characters.
 
 #Unknown Hunk
 :HAAAAARR!
 #
-:<i>The figure dressed as a pirate was stumbling and screaming.
+:<i>The figure dressed as a pirate stumbles and screams.
 #Mysteriously Dressed Person
 :What is this trickery!?
 #
-:<i>A person with a British accent and fancy clothes examined the room.
+:<i>A person with a British accent and fancy clothes examines the room.
 #Aggressive Lady
 :YOU! WHAT HAVE YOU DONE TO ME! WHERE ARE WE?
 #
-:<i>The girl with green hair was looking at Y/N angrily.
+:<i>The girl with green hair looks at Y/N angrily.
 #Y/N
 :What is going on!? What are you doing here!?
 
@@ -111,7 +111,7 @@ $ Animation Scatter
 #
 :<i>Suddenly Y/N starts to hear a voice in their head amidst the chaos.
 #Mysterious Voice
-:<i>(Echoing)</i> Ohh nephew, I see that you’ve brought some babes into my mansion.
+:<i>(Echoing)</i> Ohh, I see that you’ve brought some babes into my mansion.
 #Y/N
 :Creep- <i>(Y/N stops mid sentence)</i> My favorite uncle? What are you doing here?
 #Creepy Uncle
@@ -125,18 +125,27 @@ $ Animation Scatter
 #Y/N
 :Stop. What are you talking about? What type of magic did you cast? What is going to happen? Why 7 days?!
 #Creepy Uncle
-:Oh sorry! <i>(Their voice is fading)</i> I think I’m going through a ghostly tunnel! Happy wooing!
+:Oh sorry! <i>(Their voice is fading)</i> I think I’m going through a ghostly tunnel! 
 #
 :<i>Y/N slapped their face.
 #Y/N
-:He was always very weird. This is going to be a long week.
+:He was always really weird. This is going to be a long week.
 #Y/N
-:<i>(Screaming at the top of their lungs)</i> I guess that we’ll be living together for a while. You may use the facilities of the mansion as you like.
+:<i>(Screaming at the top of their lungs)</i> I guess we’ll be living together for a while. You may use the facilities of the mansion as you like.
 #Y/N
-:You can explore everything and please get accustomed to the place. We got a lot to learn from each other.
+:You can explore everything so please get accustomed to the place. We’ve got a lot to learn from each other.
 
 #Mizuki
 :<i>(Looking at a random point in the room, traumatized)</i> Yeah, we will…
 
-
+#
+:<i>Suddenly Y/N hears the creepy voice again.
+#Creepy Uncle
+:Oh yeah, quick note! Each night, click a person’s portrait to talk to them and try to pick the right thing to say to woo them!
+#Creepy Uncle
+:Once you’ve spent three nights with at least one of them, you can fast forward to the last night.
+#Creepy Uncle
+:But feel free to take all seven nights and try to get to know them as well as you can, if you know what I mean!
+#Creepy Uncle
+:<i>(Their voice is fading)</i> Going through a ghostly tunnel! Happy wooing!
 

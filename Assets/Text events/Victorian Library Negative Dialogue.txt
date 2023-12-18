@@ -43,7 +43,9 @@
 #
 :<i>Ollie starts backing up from the direction they came. Arms defensively in front of them. 
 #
-:<i>Y/N quizically follows Ollie, reaching a desk with things sprawled all across it. You see a candle lighting the space. Romantic, you think. A feather quill, ink and a piece of paper lie on the desk.
+:<i>Y/N quizically follows Ollie, reaching a desk with things sprawled all across it. You see a candle lighting the space.
+#
+:<i>Romantic, you think. A feather quill, ink and a piece of paper lie on the desk.
 #Y/N
 :Are you writing something? 
 #

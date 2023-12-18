@@ -36,6 +36,27 @@
 #Ollie
 :Dead people! A seance!
 
+
+#
+:<i>You look down to see a locket laying in the middle of the floor, surrounded by burning candles and paper. 
+#Y/N
+:What is that? Is that my locket?
+#Ollie
+:No! Of course not. I would never take your things like that. I brought this locket with me… I think it ties me to this realm.
+#Ollie
+:It is the locket of my deceased best friend whom I never fully recovered from… It’s all I had left, and I was hoping…
+#
+:<i>Ollie trails off.
+#Y/N
+:You need closure?
+#Ollie
+:It still hurts. I never got to say goodbye. She was here one minute, gone the next. She got very ill.
+#Y/N
+:It’s always very hard when you don’t get to say goodbye. Is that what you were trying to do?
+#Ollie
+:Yes… I wanted to see if I could somehow get in touch. See how it is on the other side. I’ve always been afraid of passing over.
+
+
 [DECISION 2
     CHOICE 1: Do you join in and help? (+1)
     CHOICE 2: Call them ridiculous and creepy? (-1)
@@ -64,7 +85,7 @@
 #
 :<i>Y/N extends a hand. 
 #Y/N
-:Let’s get out of here, then.
+:You’re not going to be able to get any writing done in here. Let’s get out of here, then.
 
 
 

@@ -571,6 +571,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Conv Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 8452779752547926050, guid: 4a7973252726b2443b4c167aee326c7a, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -10
+      objectReference: {fileID: 0}
     - target: {fileID: 8513138445940681753, guid: 4a7973252726b2443b4c167aee326c7a, type: 3}
       propertyPath: m_Camera
       value: 

@@ -15,9 +15,9 @@ public class PictureHandler : MonoBehaviour
 
     public void UpdatePortrait(int index)
     {
-        Debug.Log("The index is");
-        Debug.Log(index);
-        Debug.Log(characterPortraits.Length);
+        // Debug.Log("The index is");
+        // Debug.Log(index);
+        // Debug.Log(characterPortraits.Length);
 
         portraitStand.GetComponent<Image>().sprite = characterPortraits[index];
     }

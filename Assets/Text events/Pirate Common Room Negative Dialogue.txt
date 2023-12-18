@@ -38,7 +38,7 @@
 #
 :<i>Before Alomar can finish his sentence, Y/N is already setting up the board. 
 #
-:<i>They explains the basic rules of chess, the function of each piece and the objective of the game. Alomar leans in, with a hand to his chin, listening intently to Y/N.
+:<i>They explain the basic rules of chess, the function of each piece and the objective of the game. Alomar leans in, with a hand to his chin, listening intently to Y/N.
 #Alomar
 :So all these pieces, all serve one purpose, can only move in specific ways. And to win, you must take… that king piece. 
 #Y/N

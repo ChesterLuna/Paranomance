@@ -32,7 +32,9 @@
 ]
 
 #Mizuki
-:It’s a story from days long gone. I was but a pawn to my father who intended to marry me off for an alliance. All my life, I knew my fate and had come to accept it. But my mentor… wandering from town to town, he found me and recognized the light in me that had been dimmed by my duty.
+:It’s a story from days long gone. I was but a pawn to my father who intended to marry me off for an alliance. All my life, I knew my fate and had come to accept it.
+#Mizuki
+:But my mentor… wandering from town to town, he found me and recognized the light in me that had been dimmed by my duty.
 #
 :<i>Mizuki gazes up at the stars, a hard expression painting her face.
 #Mizuki
@@ -75,7 +77,9 @@
 #Mizuki
 :You know, my mentor bestowed the name Mizuki upon me after we escaped my household to christen my new life. It means the moon.
 #Mizuki
-:We’d watch the celestial bodies pass through the sky during night duty and he would always tell me, “I hope the light of your spirit can remain unwavering and everlasting, just as when I first met you.”
+:We’d watch the celestial bodies pass through the sky during night duty and he would always tell me.
+#Mizuki
+:“I hope the light of your spirit can remain unwavering and everlasting, just as when I first met you.”
 [DECISION 3
     CHOICE 1: In that case, I’m certain you are doing him proud. (+1)
     CHOICE 2: That must be a lot of pressure on you. (-1)
@@ -89,5 +93,7 @@
 1:Say, shall we stargaze together? I’d like to tell some stories I’ve made up about those constellations, back when I was on the battlefield…
 
 2#Mizuki
-2:On the contrary, it’s a great honour to be believed in so deeply, when few others ever believed in me. It seems that he may remain as the only one to do so… In any case, I think it’s time to turn in for the night. Let’s get down from here.
+2:On the contrary, it’s a great honour to be believed in so deeply, when few others ever believed in me. It seems that he may remain as the only one to do so…
+2#Mizuki
+2:In any case, I think it’s time to turn in for the night. Let’s get down from here.
 ]
